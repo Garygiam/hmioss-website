@@ -1,0 +1,277 @@
+{
+  "about": {
+    "title": "Our Story",
+    "subtitle": "Why We Built the Institute"
+  },
+  "missionVision": {
+    "title": "Mission & Vision",
+    "subtitle": "Our guiding commitments"
+  },
+  "leadership": {
+    "title": "Leadership",
+    "subtitle": "Board of Members & Key Persons",
+    "section": {
+      "eyebrow": "Leadership",
+      "title": "Institute Leadership",
+      "description": "Presented as institutional tiers to communicate governance structure and leadership credibility."
+    }
+  },
+  "partners": {
+    "title": "Partner Institutions",
+    "subtitle": "Our strategic collaborations",
+    "phase2": {
+      "heroBody": "Strategic partnerships allow HMIOSS to connect education, defence readiness, institutional credibility, and community service into one coordinated ecosystem.",
+      "rationale": {
+        "title": "Why Strategic Partnerships Matter",
+        "description": "HMIOSS builds partnerships to connect leadership development, education, industry exposure, and community-facing outcomes through one coordinated ecosystem."
+      },
+      "opportunities": {
+        "title": "Partner With HMIOSS",
+        "description": "Explore the partnership formats that strengthen talent development, leadership formation, and real-world opportunity pathways across the HMIOSS ecosystem.",
+        "cardEyebrow": "Partnership Opportunity"
+      },
+      "categories": [
+        {
+          "key": "universities",
+          "title": "Universities",
+          "summary": "Academic collaboration that strengthens talent development and qualification pathways.",
+          "collaborationModes": ["Academic partnerships", "Talent pipelines"],
+          "value": "Connect formal education with leadership development and future-ready pathways."
+        },
+        {
+          "key": "trainingProviders",
+          "title": "Training Providers",
+          "summary": "Specialist providers that expand applied learning and professional readiness.",
+          "collaborationModes": ["Co-delivered training", "Capability workshops"],
+          "value": "Add practical skills and industry-aligned learning experiences."
+        },
+        {
+          "key": "industryPartners",
+          "title": "Industry Partners",
+          "summary": "Industry collaborations that improve exposure, employability, and real-world understanding.",
+          "collaborationModes": ["Internships", "Industry visits"],
+          "value": "Create career visibility and professional relevance for students."
+        },
+        {
+          "key": "defenceSecurityPartners",
+          "title": "Defence & Security Partners",
+          "summary": "Structured partnerships that strengthen discipline, resilience, and operational awareness.",
+          "collaborationModes": ["Preparedness programmes", "Applied exposure"],
+          "value": "Support leadership growth through high-discipline environments."
+        },
+        {
+          "key": "communityOrganisations",
+          "title": "Community Organisations",
+          "summary": "Community-linked collaborations that turn leadership training into visible public contribution.",
+          "collaborationModes": ["Service projects", "Community leadership initiatives"],
+          "value": "Translate education into practical civic impact."
+        },
+        {
+          "key": "csrPartners",
+          "title": "CSR Partners",
+          "summary": "CSR-aligned organisations that want to support youth development and leadership pathways.",
+          "collaborationModes": ["Sponsored programmes", "Impact partnerships"],
+          "value": "Connect institutional development goals with measurable social outcomes."
+        }
+      ]
+    }
+  },
+  "programmes": {
+    "title": "Programmes",
+    "subtitle": "Leadership pathways and opportunity development",
+    "primaryCta": "Apply for Programme",
+    "secondaryCta": "Request Information",
+    "tertiaryCta": "Contact HMIOSS",
+    "phase2": {
+      "heroEyebrow": "Flagship Opportunity",
+      "heroTitle": "Launch Your Leadership Journey",
+      "heroBody": "The HMIOSS flagship programme combines leadership development, career development, industry exposure, academic qualification, and professional qualification into one integrated opportunity pathway.",
+      "heroStrapline": "One Academic Qualification. One Professional Qualification. One Integrated Career Pathway.",
+      "heroHighlights": [
+        "Dual academic and professional credential structure",
+        "SPM 3 credits or equivalent",
+        "Mentorship-led growth with real-world exposure",
+        "Clearer progression into career opportunities"
+      ],
+      "positioning": [
+        "Leadership Development",
+        "Career Development",
+        "Industry Exposure",
+        "Academic Qualification",
+        "Professional Qualification"
+      ],
+      "pathway": {
+        "title": "Career Pathways",
+        "description": "Move from student entry to recognised progression through a structured leadership and opportunity pathway.",
+        "items": [
+          {
+            "title": "Student",
+            "description": "Begin with a clear pathway into leadership and opportunity."
+          },
+          {
+            "title": "Training",
+            "description": "Build capability through integrated academic and professional learning."
+          },
+          {
+            "title": "Industry Exposure",
+            "description": "Gain applied understanding through partner-linked environments."
+          },
+          {
+            "title": "Leadership Development",
+            "description": "Strengthen discipline, responsibility, and real-world readiness."
+          },
+          {
+            "title": "Career Opportunities",
+            "description": "Progress into clearer next-step pathways after completion."
+          }
+        ]
+      },
+      "sections": {
+        "whyThisProgramme": {
+          "title": "Why This Programme",
+          "description": "This flagship pathway turns study into a clearer leadership and career opportunity journey.",
+          "points": [
+            "Leadership development with real-world relevance",
+            "Career-aligned learning that connects study with opportunity",
+            "A dual-credential structure that adds academic and professional value"
+          ]
+        },
+        "industryExposure": {
+          "title": "Industry Exposure",
+          "description": "Students build confidence through structured exposure to real operational and professional environments.",
+          "points": [
+            "Partner-linked environments",
+            "Professional awareness",
+            "Applied learning context"
+          ]
+        },
+        "roleOfHmioss": {
+          "title": "Role of HMIOSS",
+          "description": "HMIOSS anchors the programme in leadership formation, mentorship, and institutional belonging.",
+          "points": [
+            "Leadership development",
+            "Mentorship environment",
+            "Institutional identity",
+            "Community engagement"
+          ]
+        },
+        "roleOfGenovasi": {
+          "title": "Role of Genovasi",
+          "description": "Genovasi supports the academic pathway with recognised structure, standards, and learning delivery.",
+          "points": [
+            "Academic qualification pathway",
+            "Educational structure and standards",
+            "Formal learning support"
+          ]
+        },
+        "entryRequirements": {
+          "title": "Entry Requirements",
+          "description": "The programme is designed for motivated applicants who want structured growth and recognised progression.",
+          "items": [
+            "SPM 3 credits or equivalent",
+            "Commitment to leadership and learning",
+            "Interest in structured development pathways"
+          ]
+        }
+      },
+      "outcomesEyebrow": "Outcomes Led",
+      "outcomes": [
+        "Leadership Skills",
+        "Industry Exposure",
+        "Mentorship",
+        "Professional Recognition",
+        "Career Progression"
+      ],
+      "cta": {
+        "eyebrow": "Ready To Apply",
+        "title": "Apply Now",
+        "description": "Start your HMIOSS leadership journey or speak with the team to confirm the right next step for your goals."
+      }
+    }
+  },
+  "impact": {
+    "title": "Impact",
+    "subtitle": "Institutional outcomes and proof"
+  },
+  "news": {
+    "title": "News & Events",
+    "subtitle": "Updates, activities, and visits",
+    "sectionTitle": "Institutional Updates",
+    "sectionDescription": "Track media coverage, official announcements, and upcoming engagements across the institute.",
+    "filters": {
+      "all": "All",
+      "news": "News",
+      "events": "Events",
+      "announcements": "Announcements"
+    },
+    "readMore": "Read more"
+  },
+  "research": {
+    "title": "Research & Publications",
+    "subtitle": "Institutional thought leadership"
+  },
+  "join": {
+    "title": "Join Us",
+    "subtitle": "Membership & community impact",
+    "intro": "Join HMIOSS to access structured development, strategic networks, and opportunities for service-oriented leadership.",
+    "conversionTitle": "Membership Benefits",
+    "conversionDescription": "Training access, networking, business matching, and scholarship pathways.",
+    "journey": {
+      "eyebrow": "Membership Journey",
+      "title": "How Membership Progresses",
+      "description": "From enquiry to active participation, membership is structured as a guided pathway into learning, leadership, and service.",
+      "items": [
+        {
+          "key": "interest",
+          "title": "Submit Your Interest",
+          "description": "Tell us about your background, goals, and the kind of HMIOSS engagement you want to pursue."
+        },
+        {
+          "key": "review",
+          "title": "Application Review",
+          "description": "Our team reviews your membership type, interests, and the best-fit pathway for meaningful involvement."
+        },
+        {
+          "key": "orientation",
+          "title": "Onboarding & Orientation",
+          "description": "Approved applicants receive orientation, programme visibility, and introductions to the HMIOSS community."
+        },
+        {
+          "key": "participation",
+          "title": "Participate & Grow",
+          "description": "Members join programmes, events, and service opportunities that deepen leadership and institutional contribution."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Common questions about membership, onboarding, and the opportunities available through HMIOSS.",
+      "items": [
+        {
+          "question": "Who can apply for membership?",
+          "answer": "Individuals, professionals, students, and organisations aligned with HMIOSS values and mission may apply under the available membership categories."
+        },
+        {
+          "question": "How long does the review process take?",
+          "answer": "Review timelines vary by application type, but the secretariat aims to respond with next steps after the initial assessment is complete."
+        },
+        {
+          "question": "What happens after I join?",
+          "answer": "Members receive onboarding guidance and can begin engaging with programmes, events, networking, and service-oriented activities that fit their profile."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Reach our Secretariat"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "terms": {
+      "title": "Terms of Service"
+    }
+  }
+}

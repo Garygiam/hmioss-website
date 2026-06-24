@@ -1,0 +1,55 @@
+{
+  "language": {
+    "label": "Language"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "missionVision": "Mission & Vision",
+    "leadership": "Board",
+    "programmes": "Programmes",
+    "partners": "Partners",
+    "impact": "Impact",
+    "news": "News",
+    "join": "Join",
+    "contact": "Contact"
+  },
+  "stats": {
+    "members": "Members",
+    "branches": "Branches",
+    "partnerships": "Strategic Partnerships",
+    "registration": "ROS-Registered",
+    "programmes": "Leadership Programmes",
+    "education": "Strategic Education",
+    "community": "Community Service",
+    "network": "Institutional Network"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  },
+  "forms": {
+    "name": "Name",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "idNumber": "IC / Passport",
+    "subject": "Subject",
+    "message": "Message",
+    "reason": "Reason to Join",
+    "membershipType": "Membership Type",
+    "membershipTypes": {
+      "individual": "Individual",
+      "corporate": "Corporate",
+      "lifetime": "Lifetime"
+    },
+    "submit": "Submit",
+    "sending": "Sending…",
+    "submitted": "Submitted",
+    "success": "Message sent successfully.",
+    "error": "Something went wrong. Please try again."
+  }
+}

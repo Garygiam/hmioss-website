@@ -1,0 +1,55 @@
+{
+  "language": {
+    "label": "語言"
+  },
+  "nav": {
+    "home": "首頁",
+    "about": "關於",
+    "missionVision": "使命與願景",
+    "leadership": "領導層",
+    "programmes": "課程與培訓",
+    "partners": "合作夥伴",
+    "impact": "影響力",
+    "news": "新聞與活動",
+    "join": "加入我們",
+    "contact": "聯絡"
+  },
+  "stats": {
+    "members": "會員人數",
+    "branches": "分會",
+    "partnerships": "戰略合作",
+    "registration": "ROS 註冊",
+    "programmes": "領導力課程",
+    "education": "戰略教育",
+    "community": "社會服務",
+    "network": "機構網絡"
+  },
+  "footer": {
+    "quickLinks": "快速連結",
+    "legal": "法律",
+    "privacy": "隱私政策",
+    "terms": "服務條款",
+    "rights": "保留所有權利。"
+  },
+  "forms": {
+    "name": "姓名",
+    "fullName": "姓名",
+    "email": "電郵",
+    "phone": "電話",
+    "idNumber": "身分證 / 護照",
+    "subject": "主題",
+    "message": "訊息內容",
+    "reason": "加入原因",
+    "membershipType": "會員類別",
+    "membershipTypes": {
+      "individual": "個人",
+      "corporate": "企業",
+      "lifetime": "終身"
+    },
+    "submit": "提交",
+    "sending": "送出中…",
+    "submitted": "已提交",
+    "success": "訊息已成功送出。",
+    "error": "發生錯誤，請稍後再試。"
+  }
+}

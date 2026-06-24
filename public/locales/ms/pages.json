@@ -1,0 +1,277 @@
+{
+  "about": {
+    "title": "Kisah Kami",
+    "subtitle": "Mengapa kami membina institut"
+  },
+  "missionVision": {
+    "title": "Misi & Visi",
+    "subtitle": "Komitmen teras kami"
+  },
+  "leadership": {
+    "title": "Kepimpinan",
+    "subtitle": "Lembaga & individu utama",
+    "section": {
+      "eyebrow": "Kepimpinan",
+      "title": "Kepimpinan Institut",
+      "description": "Dipersembahkan sebagai tier institusi untuk menggambarkan struktur tadbir urus dan kredibiliti kepimpinan."
+    }
+  },
+  "partners": {
+    "title": "Rakan Institusi",
+    "subtitle": "Kerjasama strategik",
+    "phase2": {
+      "heroBody": "Perkongsian strategik membolehkan HMIOSS menghubungkan pendidikan, kesiapsiagaan pertahanan, kredibiliti institusi, dan khidmat komuniti dalam satu ekosistem yang terselaras.",
+      "rationale": {
+        "title": "Mengapa Perkongsian Strategik Penting",
+        "description": "HMIOSS membina perkongsian untuk menghubungkan pembangunan kepimpinan, pendidikan, pendedahan industri, dan hasil berimpak komuniti dalam satu ekosistem yang terselaras."
+      },
+      "opportunities": {
+        "title": "Bekerjasama Dengan HMIOSS",
+        "description": "Terokai bentuk kerjasama yang mengukuhkan pembangunan bakat, pembentukan kepimpinan, dan laluan peluang dunia sebenar dalam ekosistem HMIOSS.",
+        "cardEyebrow": "Peluang Kerjasama"
+      },
+      "categories": [
+        {
+          "key": "universities",
+          "title": "Universiti",
+          "summary": "Kerjasama akademik yang mengukuhkan pembangunan bakat dan laluan kelayakan.",
+          "collaborationModes": ["Perkongsian akademik", "Saluran bakat"],
+          "value": "Menghubungkan pendidikan formal dengan pembangunan kepimpinan dan laluan masa depan."
+        },
+        {
+          "key": "trainingProviders",
+          "title": "Penyedia Latihan",
+          "summary": "Penyedia khusus yang memperluas pembelajaran gunaan dan kesiapsiagaan profesional.",
+          "collaborationModes": ["Latihan bersama", "Bengkel keupayaan"],
+          "value": "Menambah kemahiran praktikal dan pengalaman pembelajaran yang selari dengan industri."
+        },
+        {
+          "key": "industryPartners",
+          "title": "Rakan Industri",
+          "summary": "Kerjasama industri yang meningkatkan pendedahan, kebolehpasaran, dan pemahaman dunia sebenar.",
+          "collaborationModes": ["Latihan industri", "Lawatan industri"],
+          "value": "Mewujudkan keterlihatan kerjaya dan kaitan profesional untuk pelajar."
+        },
+        {
+          "key": "defenceSecurityPartners",
+          "title": "Rakan Pertahanan & Keselamatan",
+          "summary": "Perkongsian berstruktur yang mengukuhkan disiplin, daya tahan, dan kesedaran operasi.",
+          "collaborationModes": ["Program kesiapsiagaan", "Pendedahan gunaan"],
+          "value": "Menyokong pertumbuhan kepimpinan melalui persekitaran berdisiplin tinggi."
+        },
+        {
+          "key": "communityOrganisations",
+          "title": "Organisasi Komuniti",
+          "summary": "Kerjasama komuniti yang menukar latihan kepimpinan kepada sumbangan awam yang nyata.",
+          "collaborationModes": ["Projek khidmat", "Inisiatif kepimpinan komuniti"],
+          "value": "Menterjemahkan pendidikan kepada impak sivik yang praktikal."
+        },
+        {
+          "key": "csrPartners",
+          "title": "Rakan CSR",
+          "summary": "Organisasi berteraskan CSR yang mahu menyokong pembangunan belia dan laluan kepimpinan.",
+          "collaborationModes": ["Program tajaan", "Perkongsian impak"],
+          "value": "Menghubungkan matlamat pembangunan institusi dengan hasil sosial yang boleh diukur."
+        }
+      ]
+    }
+  },
+  "programmes": {
+    "title": "Program",
+    "subtitle": "Laluan kepimpinan dan pembangunan peluang",
+    "primaryCta": "Mohon Program",
+    "secondaryCta": "Minta Maklumat",
+    "tertiaryCta": "Hubungi HMIOSS",
+    "phase2": {
+      "heroEyebrow": "Peluang Utama",
+      "heroTitle": "Mulakan Perjalanan Kepimpinan Anda",
+      "heroBody": "Program utama HMIOSS menggabungkan pembangunan kepimpinan, pembangunan kerjaya, pendedahan industri, kelayakan akademik, dan kelayakan profesional ke dalam satu laluan peluang bersepadu.",
+      "heroStrapline": "Satu Kelayakan Akademik. Satu Kelayakan Profesional. Satu Laluan Kerjaya Bersepadu.",
+      "heroHighlights": [
+        "Struktur dwi kelayakan akademik dan profesional",
+        "SPM 3 kredit atau setaraf",
+        "Pertumbuhan berpandu bimbingan dengan pendedahan dunia sebenar",
+        "Perkembangan yang lebih jelas ke arah peluang kerjaya"
+      ],
+      "positioning": [
+        "Pembangunan Kepimpinan",
+        "Pembangunan Kerjaya",
+        "Pendedahan Industri",
+        "Kelayakan Akademik",
+        "Kelayakan Profesional"
+      ],
+      "pathway": {
+        "title": "Laluan Kerjaya",
+        "description": "Bergerak daripada kemasukan pelajar kepada kemajuan yang diiktiraf melalui laluan kepimpinan dan peluang yang tersusun.",
+        "items": [
+          {
+            "title": "Pelajar",
+            "description": "Mulakan dengan laluan yang jelas ke arah kepimpinan dan peluang."
+          },
+          {
+            "title": "Latihan",
+            "description": "Bina keupayaan melalui pembelajaran akademik dan profesional yang bersepadu."
+          },
+          {
+            "title": "Pendedahan Industri",
+            "description": "Dapatkan pemahaman gunaan melalui persekitaran yang dipautkan dengan rakan industri."
+          },
+          {
+            "title": "Pembangunan Kepimpinan",
+            "description": "Perkukuh disiplin, tanggungjawab, dan kesiapsiagaan dunia sebenar."
+          },
+          {
+            "title": "Peluang Kerjaya",
+            "description": "Mara ke hadapan dengan hala tuju seterusnya yang lebih jelas selepas tamat program."
+          }
+        ]
+      },
+      "sections": {
+        "whyThisProgramme": {
+          "title": "Mengapa Program Ini",
+          "description": "Laluan utama ini menukar pengajian kepada perjalanan kepimpinan dan peluang kerjaya yang lebih jelas.",
+          "points": [
+            "Pembangunan kepimpinan yang relevan dengan dunia sebenar",
+            "Pembelajaran berorientasikan kerjaya yang menghubungkan pengajian dengan peluang",
+            "Struktur dwi kelayakan yang menambah nilai akademik dan profesional"
+          ]
+        },
+        "industryExposure": {
+          "title": "Pendedahan Industri",
+          "description": "Pelajar membina keyakinan melalui pendedahan berstruktur kepada persekitaran operasi dan profesional sebenar.",
+          "points": [
+            "Persekitaran dipautkan rakan",
+            "Kesedaran profesional",
+            "Konteks pembelajaran gunaan"
+          ]
+        },
+        "roleOfHmioss": {
+          "title": "Peranan HMIOSS",
+          "description": "HMIOSS mengasaskan program ini pada pembentukan kepimpinan, bimbingan, dan jati diri institusi.",
+          "points": [
+            "Pembangunan kepimpinan",
+            "Persekitaran bimbingan",
+            "Identiti institusi",
+            "Penglibatan komuniti"
+          ]
+        },
+        "roleOfGenovasi": {
+          "title": "Peranan Genovasi",
+          "description": "Genovasi menyokong laluan akademik dengan struktur, piawaian, dan penyampaian pembelajaran yang diiktiraf.",
+          "points": [
+            "Laluan kelayakan akademik",
+            "Struktur dan piawaian pendidikan",
+            "Sokongan pembelajaran formal"
+          ]
+        },
+        "entryRequirements": {
+          "title": "Syarat Kemasukan",
+          "description": "Program ini direka untuk pemohon bermotivasi yang mahukan pertumbuhan tersusun dan perkembangan yang diiktiraf.",
+          "items": [
+            "SPM 3 kredit atau setaraf",
+            "Komitmen terhadap kepimpinan dan pembelajaran",
+            "Minat terhadap laluan pembangunan berstruktur"
+          ]
+        }
+      },
+      "outcomesEyebrow": "Berteraskan Hasil",
+      "outcomes": [
+        "Kemahiran Kepimpinan",
+        "Pendedahan Industri",
+        "Bimbingan",
+        "Pengiktirafan Profesional",
+        "Kemajuan Kerjaya"
+      ],
+      "cta": {
+        "eyebrow": "Sedia Untuk Memohon",
+        "title": "Mohon Sekarang",
+        "description": "Mulakan perjalanan kepimpinan HMIOSS anda atau berbincang dengan pasukan kami untuk mengesahkan langkah seterusnya yang paling sesuai dengan matlamat anda."
+      }
+    }
+  },
+  "impact": {
+    "title": "Impak",
+    "subtitle": "Hasil dan bukti institusi"
+  },
+  "news": {
+    "title": "Berita & Acara",
+    "subtitle": "Kemas kini dan aktiviti",
+    "sectionTitle": "Kemas Kini Institusi",
+    "sectionDescription": "Ikuti liputan media, pengumuman rasmi, dan penglibatan penting yang akan datang di seluruh institusi.",
+    "filters": {
+      "all": "Semua",
+      "news": "Berita",
+      "events": "Acara",
+      "announcements": "Pengumuman"
+    },
+    "readMore": "Baca lanjut"
+  },
+  "research": {
+    "title": "Penyelidikan & Penerbitan",
+    "subtitle": "Pemikiran strategik institusi"
+  },
+  "join": {
+    "title": "Sertai Kami",
+    "subtitle": "Keahlian dan impak komuniti",
+    "intro": "Sertai HMIOSS untuk mengakses pembangunan berstruktur, rangkaian strategik, dan peluang kepimpinan yang berteraskan khidmat.",
+    "conversionTitle": "Nilai Keahlian",
+    "conversionDescription": "Akses latihan, rangkaian, padanan perniagaan, dan laluan biasiswa tersedia untuk ahli.",
+    "journey": {
+      "eyebrow": "Perjalanan Keahlian",
+      "title": "Bagaimana Keahlian Berkembang",
+      "description": "Daripada pertanyaan awal hingga penyertaan aktif, keahlian dibina sebagai laluan berpandu ke arah pembelajaran, kepimpinan, dan khidmat.",
+      "items": [
+        {
+          "key": "interest",
+          "title": "Hantar Minat Anda",
+          "description": "Beritahu kami latar belakang, matlamat, dan bentuk penglibatan HMIOSS yang anda ingin sertai."
+        },
+        {
+          "key": "review",
+          "title": "Semakan Permohonan",
+          "description": "Pasukan kami menilai jenis keahlian, minat, dan laluan paling sesuai untuk penglibatan yang bermakna."
+        },
+        {
+          "key": "orientation",
+          "title": "Orientasi & Pengenalan",
+          "description": "Pemohon yang diluluskan menerima panduan seterusnya, gambaran program, dan pengenalan kepada komuniti HMIOSS."
+        },
+        {
+          "key": "participation",
+          "title": "Sertai & Berkembang",
+          "description": "Ahli menyertai program, acara, dan peluang khidmat yang memperkukuh kepimpinan serta sumbangan institusi."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Soalan Lazim",
+      "description": "Soalan lazim tentang keahlian, orientasi, dan peluang yang tersedia melalui HMIOSS.",
+      "items": [
+        {
+          "question": "Siapa yang boleh memohon keahlian?",
+          "answer": "Individu, profesional, pelajar, dan organisasi yang sejajar dengan nilai serta misi HMIOSS boleh memohon mengikut kategori keahlian yang tersedia."
+        },
+        {
+          "question": "Berapa lama proses semakan mengambil masa?",
+          "answer": "Tempoh semakan berbeza mengikut jenis permohonan, namun sekretariat akan berkongsi langkah seterusnya selepas penilaian awal selesai."
+        },
+        {
+          "question": "Apa berlaku selepas saya menyertai?",
+          "answer": "Ahli menerima panduan orientasi dan boleh mula terlibat dalam program, acara, rangkaian, dan aktiviti khidmat yang sesuai dengan profil mereka."
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Hubungi",
+    "subtitle": "Berhubung dengan Sekretariat"
+  },
+  "legal": {
+    "privacy": {
+      "title": "Dasar Privasi"
+    },
+    "terms": {
+      "title": "Terma Perkhidmatan"
+    }
+  }
+}

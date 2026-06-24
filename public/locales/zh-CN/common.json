@@ -1,0 +1,55 @@
+{
+  "language": {
+    "label": "语言"
+  },
+  "nav": {
+    "home": "首页",
+    "about": "关于",
+    "missionVision": "使命与愿景",
+    "leadership": "领导层",
+    "programmes": "课程与培训",
+    "partners": "合作伙伴",
+    "impact": "影响力",
+    "news": "新闻与活动",
+    "join": "加入我们",
+    "contact": "联系"
+  },
+  "stats": {
+    "members": "会员人数",
+    "branches": "分会",
+    "partnerships": "战略合作",
+    "registration": "ROS 注册",
+    "programmes": "领导力课程",
+    "education": "战略教育",
+    "community": "社会服务",
+    "network": "机构网络"
+  },
+  "footer": {
+    "quickLinks": "快速链接",
+    "legal": "法律",
+    "privacy": "隐私政策",
+    "terms": "服务条款",
+    "rights": "保留所有权利。"
+  },
+  "forms": {
+    "name": "姓名",
+    "fullName": "姓名",
+    "email": "邮箱",
+    "phone": "电话",
+    "idNumber": "身份证 / 护照",
+    "subject": "主题",
+    "message": "信息内容",
+    "reason": "加入原因",
+    "membershipType": "会员类别",
+    "membershipTypes": {
+      "individual": "个人",
+      "corporate": "企业",
+      "lifetime": "终身"
+    },
+    "submit": "提交",
+    "sending": "发送中…",
+    "submitted": "已提交",
+    "success": "信息已成功发送。",
+    "error": "发生错误，请稍后再试。"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "eyebrow": "機構成果",
+    "title": "影響力",
+    "subtitle": "機構成果與佐證"
+  },
+  "highlightsTitle": "影響力概覽",
+  "highlights": {
+    "leadership": {
+      "label": "領導力培育",
+      "summary": "領導力始終是課程、合作與參與中的首要機構目標。"
+    },
+    "education": {
+      "label": "教育倡議",
+      "summary": "各項計畫圍繞人才培養、學習路徑與戰略能力建設。"
+    },
+    "research": {
+      "label": "戰略研究",
+      "summary": "研究支持機構對話、公眾理解與長期能力發展。"
+    },
+    "community": {
+      "label": "社群影響",
+      "summary": "社會與國家服務被視為領導與教育的實際成果。"
+    }
+  },
+  "sectionsTitle": "機構佐證重點",
+  "sections": {
+    "members": {
+      "title": "會員",
+      "summary": "持續成長的機構網絡，以領導與發展路徑相連。",
+      "points": [
+        "以領導為導向的會員結構",
+        "有系統的參與機制",
+        "跨分會的機構認同"
+      ]
+    },
+    "branches": {
+      "title": "分會",
+      "summary": "分布式機構布局支撐課程推進與網絡參與。",
+      "points": [
+        "區域覆蓋",
+        "協調能力",
+        "網絡延續性"
+      ]
+    },
+    "programmes": {
+      "title": "課程",
+      "summary": "課程支援教育、能力建設與領導力養成。",
+      "points": [
+        "教育倡議",
+        "戰略學習",
+        "實踐路徑"
+      ]
+    },
+    "partnerships": {
+      "title": "合作",
+      "summary": "戰略合作提升教育、國防準備與機構公信力。",
+      "points": [
+        "教育夥伴",
+        "國防合作",
+        "戰略生態"
+      ]
+    },
+    "communityActivities": {
+      "title": "社群活動",
+      "summary": "社群活動被定位為使命成果，而非單一活動本身。",
+      "points": [
+        "服務導向",
+        "公共參與",
+        "實踐領導"
+      ]
+    },
+    "leadershipDevelopment": {
+      "title": "領導力發展",
+      "summary": "領導力發展是全站一致的核心機構目標。",
+      "points": [
+        "人才培養",
+        "能力建設",
+        "領導路徑"
+      ]
+    },
+    "events": {
+      "title": "活動",
+      "summary": "活動展示機構活力、社群參與與合作動能。",
+      "points": [
+        "論壇",
+        "項目",
+        "戰略交流"
+      ]
+    }
+  },
+  "cta": {
+    "title": "與我們共同推進下一階段",
+    "body": "與 HMIOSS 合作，擴大領導力培育、機構教育與有意義的社會服務。",
+    "primary": "與 HMIOSS 合作",
+    "secondary": "探索我們的課程"
+  }
+}

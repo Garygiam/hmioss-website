@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hmioss.org
+
+# Sitemaps
+Sitemap: https://hmioss.org/sitemap.xml

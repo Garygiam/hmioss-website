@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "eyebrow": "机构成果",
+    "title": "影响力",
+    "subtitle": "机构成果与佐证"
+  },
+  "highlightsTitle": "影响力概览",
+  "highlights": {
+    "leadership": {
+      "label": "领导力培养",
+      "summary": "领导力始终是课程、合作与参与中的首要机构目标。"
+    },
+    "education": {
+      "label": "教育倡议",
+      "summary": "各项计划围绕人才培养、学习路径与战略能力建设。"
+    },
+    "research": {
+      "label": "战略研究",
+      "summary": "研究支持机构对话、公众理解与长期能力发展。"
+    },
+    "community": {
+      "label": "社群影响",
+      "summary": "社会与国家服务被视为领导与教育的实际成果。"
+    }
+  },
+  "sectionsTitle": "机构佐证重点",
+  "sections": {
+    "members": {
+      "title": "会员",
+      "summary": "持续成长的机构网络，以领导与发展路径相连。",
+      "points": [
+        "以领导为导向的会员结构",
+        "有系统的参与机制",
+        "跨分会的机构认同"
+      ]
+    },
+    "branches": {
+      "title": "分会",
+      "summary": "分布式机构布局支撑课程推进与网络参与。",
+      "points": [
+        "区域覆盖",
+        "协调能力",
+        "网络延续性"
+      ]
+    },
+    "programmes": {
+      "title": "课程",
+      "summary": "课程支持教育、能力建设与领导力养成。",
+      "points": [
+        "教育倡议",
+        "战略学习",
+        "实践路径"
+      ]
+    },
+    "partnerships": {
+      "title": "合作",
+      "summary": "战略合作提升教育、国防准备与机构公信力。",
+      "points": [
+        "教育伙伴",
+        "国防合作",
+        "战略生态"
+      ]
+    },
+    "communityActivities": {
+      "title": "社群活动",
+      "summary": "社群活动被定位为使命成果，而非单一活动本身。",
+      "points": [
+        "服务导向",
+        "公共参与",
+        "实践领导"
+      ]
+    },
+    "leadershipDevelopment": {
+      "title": "领导力发展",
+      "summary": "领导力发展是全站一致的核心机构目标。",
+      "points": [
+        "人才培养",
+        "能力建设",
+        "领导路径"
+      ]
+    },
+    "events": {
+      "title": "活动",
+      "summary": "活动展示机构活力、社群参与与合作动能。",
+      "points": [
+        "论坛",
+        "项目",
+        "战略交流"
+      ]
+    }
+  },
+  "cta": {
+    "title": "与我们共同推进下一阶段",
+    "body": "与 HMIOSS 合作，扩大领导力培养、机构教育与有意义的社会服务。",
+    "primary": "与 HMIOSS 合作",
+    "secondary": "探索我们的课程"
+  }
+}

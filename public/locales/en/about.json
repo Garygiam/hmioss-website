@@ -1,0 +1,47 @@
+{
+  "intro": "HMIOSS is a leadership-first institution that translates heritage into education, strategy, and service for the next generation.",
+  "storyExcerpt": "For more than four centuries, the Hung Men tradition has stood for loyalty, righteousness, and mutual protection. In Malaysia, HMIOSS carries that legacy forward as a registered institution focused on strategic education, leadership development, research, and national service. We connect history with practical capability so members, partners, and communities can grow with discipline, perspective, and purpose.",
+  "keyMessage": "We preserve heritage by developing capable leaders, stronger institutions, and service-minded communities.",
+  "timelineTitle": "Institutional journey",
+  "timeline": {
+    "title": "From legacy to leadership institution",
+    "items": [
+      {
+        "period": "1600s-1800s",
+        "title": "Shared values and mutual protection",
+        "description": "Hung Men identity forms around loyalty, discipline, and solidarity."
+      },
+      {
+        "period": "20th century",
+        "title": "Community continuity in Malaysia",
+        "description": "Networks sustain belonging, service, and intergenerational trust."
+      },
+      {
+        "period": "Today",
+        "title": "Strategic education and leadership development",
+        "description": "HMIOSS applies tradition to leadership formation, research, partnerships, and national contribution."
+      }
+    ]
+  },
+  "focusAreas": {
+    "title": "Core Focus Areas",
+    "items": [
+      {
+        "title": "Leadership Development",
+        "description": "Form leaders who can serve with judgment, discipline, and credibility."
+      },
+      {
+        "title": "Strategic Education",
+        "description": "Create practical learning pathways in governance, technology, and institutional thinking."
+      },
+      {
+        "title": "Research & Dialogue",
+        "description": "Support informed public and institutional conversations through research and convenings."
+      },
+      {
+        "title": "Community & National Service",
+        "description": "Translate values into service, resilience, and meaningful contribution."
+      }
+    ]
+  }
+}

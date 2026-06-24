@@ -1,0 +1,277 @@
+{
+  "about": {
+    "title": "我们的故事",
+    "subtitle": "为何成立研究院"
+  },
+  "missionVision": {
+    "title": "使命与愿景",
+    "subtitle": "我们的核心承诺"
+  },
+  "leadership": {
+    "title": "领导层",
+    "subtitle": "理事会与关键人物",
+    "section": {
+      "eyebrow": "领导层",
+      "title": "研究院领导架构",
+      "description": "以机构层级呈现，强调治理结构与领导公信力，而非企业式汇报关系。"
+    }
+  },
+  "partners": {
+    "title": "合作伙伴",
+    "subtitle": "战略合作机构",
+    "phase2": {
+      "heroBody": "战略合作让 HMIOSS 能把教育、国防素养、机构公信力与社区服务整合为一个协同生态。",
+      "rationale": {
+        "title": "为什么战略合作重要",
+        "description": "HMIOSS 通过合作把领导力培养、教育、产业接触与面向社区的成果整合为一个协同生态。"
+      },
+      "opportunities": {
+        "title": "与 HMIOSS 合作",
+        "description": "探索能强化人才发展、领导力塑造与现实机会路径的合作形式，共同扩展 HMIOSS 生态。",
+        "cardEyebrow": "合作机会"
+      },
+      "categories": [
+        {
+          "key": "universities",
+          "title": "高等院校",
+          "summary": "强化人才发展与资格路径的学术合作。",
+          "collaborationModes": ["学术合作", "人才通道"],
+          "value": "把正式教育与领导力培养及面向未来的发展路径连接起来。"
+        },
+        {
+          "key": "trainingProviders",
+          "title": "培训机构",
+          "summary": "扩展实践学习与专业就绪度的专业培训伙伴。",
+          "collaborationModes": ["联合培训", "能力工作坊"],
+          "value": "补充实用技能与贴近产业的学习体验。"
+        },
+        {
+          "key": "industryPartners",
+          "title": "产业伙伴",
+          "summary": "提升产业接触、就业力与真实理解的产业合作。",
+          "collaborationModes": ["实习机会", "产业参访"],
+          "value": "为学生建立更清晰的职业视野与专业相关性。"
+        },
+        {
+          "key": "defenceSecurityPartners",
+          "title": "国防与安全伙伴",
+          "summary": "强化纪律、韧性与操作意识的结构化合作。",
+          "collaborationModes": ["备战项目", "实践接触"],
+          "value": "通过高纪律环境支持领导力成长。"
+        },
+        {
+          "key": "communityOrganisations",
+          "title": "社区组织",
+          "summary": "把领导训练转化为可见公共贡献的社区合作。",
+          "collaborationModes": ["服务项目", "社区领导倡议"],
+          "value": "把教育转化为可落地的公共影响。"
+        },
+        {
+          "key": "csrPartners",
+          "title": "企业社会责任伙伴",
+          "summary": "希望支持青年发展与领导路径的 CSR 导向机构。",
+          "collaborationModes": ["赞助项目", "影响力合作"],
+          "value": "把机构发展目标与可衡量的社会成果连接起来。"
+        }
+      ]
+    }
+  },
+  "programmes": {
+    "title": "课程与培训",
+    "subtitle": "领导力路径与机会发展",
+    "primaryCta": "申请课程",
+    "secondaryCta": "索取资料",
+    "tertiaryCta": "联系 HMIOSS",
+    "phase2": {
+      "heroEyebrow": "旗舰机会",
+      "heroTitle": "开启你的领导力旅程",
+      "heroBody": "HMIOSS 旗舰课程把领导力培养、职业发展、产业接触、学术资格与专业资格整合为一条完整的发展路径。",
+      "heroStrapline": "一项学术资格，一项专业资格，一条整合式职业路径。",
+      "heroHighlights": [
+        "学术与专业双资格结构",
+        "SPM 三科及格或同等资格",
+        "以导师引导结合真实世界接触的成长路径",
+        "更清晰地迈向职业机会"
+      ],
+      "positioning": [
+        "领导力培养",
+        "职业发展",
+        "产业接触",
+        "学术资格",
+        "专业资格"
+      ],
+      "pathway": {
+        "title": "职业路径",
+        "description": "从学生起点走向受认可的发展阶段，沿着结构化的领导力与机会路径前进。",
+        "items": [
+          {
+            "title": "学生",
+            "description": "从一条清晰通往领导力与机会的路径开始。"
+          },
+          {
+            "title": "培训",
+            "description": "通过整合式学术与专业学习建立能力。"
+          },
+          {
+            "title": "产业接触",
+            "description": "通过合作伙伴场域获得实践理解。"
+          },
+          {
+            "title": "领导力培养",
+            "description": "强化纪律、责任感与真实世界准备度。"
+          },
+          {
+            "title": "职业机会",
+            "description": "完成后迈向更清晰的下一步发展路径。"
+          }
+        ]
+      },
+      "sections": {
+        "whyThisProgramme": {
+          "title": "为什么选择这项课程",
+          "description": "这条旗舰路径把学习转化为更清晰的领导力与职业发展旅程。",
+          "points": [
+            "具有现实关联的领导力培养",
+            "把学习与机会连接起来的职业导向学习",
+            "兼具学术与专业价值的双资格结构"
+          ]
+        },
+        "industryExposure": {
+          "title": "产业接触",
+          "description": "学生通过有结构的真实操作与专业场景接触建立信心。",
+          "points": [
+            "合作伙伴场域",
+            "专业认知",
+            "实践学习情境"
+          ]
+        },
+        "roleOfHmioss": {
+          "title": "HMIOSS 的角色",
+          "description": "HMIOSS 以领导力塑造、导师引导与机构归属感为课程核心。",
+          "points": [
+            "领导力培养",
+            "导师环境",
+            "机构认同",
+            "社区参与"
+          ]
+        },
+        "roleOfGenovasi": {
+          "title": "Genovasi 的角色",
+          "description": "Genovasi 以受认可的结构、标准与教学支持学术路径。",
+          "points": [
+            "学术资格路径",
+            "教育结构与标准",
+            "正式学习支持"
+          ]
+        },
+        "entryRequirements": {
+          "title": "入学要求",
+          "description": "这项课程为希望获得结构化成长与受认可进阶的积极申请者而设。",
+          "items": [
+            "SPM 三科及格或同等资格",
+            "对领导力与学习有明确投入",
+            "对结构化发展路径有兴趣"
+          ]
+        }
+      },
+      "outcomesEyebrow": "以成果为导向",
+      "outcomes": [
+        "领导技能",
+        "产业接触",
+        "导师引导",
+        "专业认可",
+        "职业进阶"
+      ],
+      "cta": {
+        "eyebrow": "准备申请",
+        "title": "立即申请",
+        "description": "开启你的 HMIOSS 领导力旅程，或先与团队沟通，确认最适合你目标的下一步。"
+      }
+    }
+  },
+  "impact": {
+    "title": "影响力",
+    "subtitle": "机构成果与佐证"
+  },
+  "news": {
+    "title": "新闻与活动",
+    "subtitle": "最新消息与活动",
+    "sectionTitle": "机构最新动态",
+    "sectionDescription": "掌握研究院的媒体报道、官方公告与即将展开的重要交流活动。",
+    "filters": {
+      "all": "全部",
+      "news": "新闻",
+      "events": "活动",
+      "announcements": "公告"
+    },
+    "readMore": "阅读更多"
+  },
+  "research": {
+    "title": "研究与出版",
+    "subtitle": "研究领域与白皮书"
+  },
+  "join": {
+    "title": "加入我们",
+    "subtitle": "会员申请与社群影响",
+    "intro": "加入 HMIOSS，获得有系统的成长机会、战略人脉网络，以及以服务为本的领导力发展平台。",
+    "conversionTitle": "会员价值",
+    "conversionDescription": "提供培训资源、人脉连接、商务对接与奖学金相关机会。",
+    "journey": {
+      "eyebrow": "会员旅程",
+      "title": "加入后的发展流程",
+      "description": "从提出意向到积极参与，会员制度被设计为一条有引导的学习、领导与服务路径。",
+      "items": [
+        {
+          "key": "interest",
+          "title": "提交加入意向",
+          "description": "向我们介绍您的背景、目标，以及希望如何参与 HMIOSS。"
+        },
+        {
+          "key": "review",
+          "title": "申请审核",
+          "description": "秘书处会根据会员类型、兴趣方向与适合的参与方式进行初步评估。"
+        },
+        {
+          "key": "orientation",
+          "title": "启动与导览",
+          "description": "核准后，您将收到入会指引、课程资讯与社群介绍。"
+        },
+        {
+          "key": "participation",
+          "title": "参与并成长",
+          "description": "会员可参与课程、活动与服务机会，深化领导力与机构参与。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "description": "有关会员申请、启动流程与 HMIOSS 发展机会的常见问题。",
+      "items": [
+        {
+          "question": "哪些人士可以申请成为会员？",
+          "answer": "认同 HMIOSS 价值与使命的个人、专业人士、学生与机构，皆可依现有会员类别提出申请。"
+        },
+        {
+          "question": "申请审核通常需要多久？",
+          "answer": "审核时间会因申请类型而有所不同，秘书处会在完成初步评估后尽快通知下一步。"
+        },
+        {
+          "question": "加入后可以参与哪些内容？",
+          "answer": "会员将获得入会引导，并可根据自身情况参与课程、活动、人脉交流与服务型项目。"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "联系我们",
+    "subtitle": "秘书处联系方式"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隐私政策"
+    },
+    "terms": {
+      "title": "服务条款"
+    }
+  }
+}

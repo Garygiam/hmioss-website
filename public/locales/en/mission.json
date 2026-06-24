@@ -1,0 +1,33 @@
+{
+  "missionTitle": "Mission",
+  "visionTitle": "Vision",
+  "visionText": "To become a strategic platform and talent hub that develops capable Hung Men leaders for Malaysia and the wider international network.",
+  "missionBullets": [
+    "Advance leadership, education, and professional capability across our network.",
+    "Connect Hung Men talent, institutional partners, and strategic opportunities.",
+    "Cultivate youth leadership, discipline, and an international outlook.",
+    "Strengthen capability in research, technology, AI, and industry transformation.",
+    "Encourage public service and national contribution in civil and defence domains."
+  ],
+  "coreValuesTitle": "Core Values",
+  "coreValuesText": "Loyalty as foundation, wisdom as tool; serve the nation, strengthen the community.",
+  "prioritiesTitle": "Strategic Priorities",
+  "priorities": [
+    {
+      "title": "Leadership Development",
+      "description": "Build leaders who can guide institutions, communities, and future initiatives with credibility."
+    },
+    {
+      "title": "Institutional Education",
+      "description": "Deliver structured learning that combines heritage, strategy, technology, and practical capability."
+    },
+    {
+      "title": "Research & Dialogue",
+      "description": "Generate informed perspectives that support thoughtful engagement with public and institutional issues."
+    },
+    {
+      "title": "Service & Partnerships",
+      "description": "Align programmes and partnerships with national contribution, community resilience, and long-term impact."
+    }
+  ]
+}

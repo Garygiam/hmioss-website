@@ -1,0 +1,55 @@
+{
+  "language": {
+    "label": "Bahasa"
+  },
+  "nav": {
+    "home": "Utama",
+    "about": "Tentang",
+    "missionVision": "Misi & Visi",
+    "leadership": "Kepimpinan",
+    "programmes": "Program",
+    "partners": "Rakan",
+    "impact": "Impak",
+    "news": "Berita",
+    "join": "Sertai",
+    "contact": "Hubungi"
+  },
+  "stats": {
+    "members": "Ahli",
+    "branches": "Cawangan",
+    "partnerships": "Perkongsian Strategik",
+    "registration": "Berdaftar ROS",
+    "programmes": "Program Kepimpinan",
+    "education": "Pendidikan Strategik",
+    "community": "Khidmat Komuniti",
+    "network": "Rangkaian Institusi"
+  },
+  "footer": {
+    "quickLinks": "Pautan Pantas",
+    "legal": "Perundangan",
+    "privacy": "Dasar Privasi",
+    "terms": "Terma Perkhidmatan",
+    "rights": "Hak cipta terpelihara."
+  },
+  "forms": {
+    "name": "Nama",
+    "fullName": "Nama Penuh",
+    "email": "Emel",
+    "phone": "Telefon",
+    "idNumber": "IC / Pasport",
+    "subject": "Subjek",
+    "message": "Mesej",
+    "reason": "Sebab untuk Sertai",
+    "membershipType": "Jenis Keahlian",
+    "membershipTypes": {
+      "individual": "Individu",
+      "corporate": "Korporat",
+      "lifetime": "Seumur Hidup"
+    },
+    "submit": "Hantar",
+    "sending": "Menghantar…",
+    "submitted": "Dihantar",
+    "success": "Mesej berjaya dihantar.",
+    "error": "Ralat berlaku. Sila cuba lagi."
+  }
+}

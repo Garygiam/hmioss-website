@@ -1,0 +1,277 @@
+{
+  "about": {
+    "title": "我們的故事",
+    "subtitle": "為何成立研究院"
+  },
+  "missionVision": {
+    "title": "使命與願景",
+    "subtitle": "我們的核心承諾"
+  },
+  "leadership": {
+    "title": "領導層",
+    "subtitle": "理事會與關鍵人物",
+    "section": {
+      "eyebrow": "領導層",
+      "title": "研究院領導架構",
+      "description": "以機構層級呈現，強調治理結構與領導公信力，而非企業式匯報關係。"
+    }
+  },
+  "partners": {
+    "title": "合作夥伴",
+    "subtitle": "戰略合作機構",
+    "phase2": {
+      "heroBody": "戰略合作讓 HMIOSS 能把教育、國防素養、機構公信力與社群服務整合為一個協同生態。",
+      "rationale": {
+        "title": "為什麼戰略合作重要",
+        "description": "HMIOSS 透過合作把領導力培育、教育、產業接觸與面向社群的成果整合為一個協同生態。"
+      },
+      "opportunities": {
+        "title": "與 HMIOSS 合作",
+        "description": "探索能強化人才發展、領導力塑造與真實機會路徑的合作形式，共同延伸 HMIOSS 生態。",
+        "cardEyebrow": "合作機會"
+      },
+      "categories": [
+        {
+          "key": "universities",
+          "title": "大專院校",
+          "summary": "強化人才發展與資格路徑的學術合作。",
+          "collaborationModes": ["學術合作", "人才通道"],
+          "value": "把正式教育與領導力培育及面向未來的發展路徑連結起來。"
+        },
+        {
+          "key": "trainingProviders",
+          "title": "培訓機構",
+          "summary": "擴展實務學習與專業就緒度的專業培訓夥伴。",
+          "collaborationModes": ["聯合培訓", "能力工作坊"],
+          "value": "補充實用技能與貼近產業的學習體驗。"
+        },
+        {
+          "key": "industryPartners",
+          "title": "產業夥伴",
+          "summary": "提升產業接觸、就業力與真實理解的產業合作。",
+          "collaborationModes": ["實習機會", "產業參訪"],
+          "value": "為學生建立更清晰的職涯視野與專業關聯性。"
+        },
+        {
+          "key": "defenceSecurityPartners",
+          "title": "國防與安全夥伴",
+          "summary": "強化紀律、韌性與操作意識的結構化合作。",
+          "collaborationModes": ["備戰計畫", "實務接觸"],
+          "value": "透過高紀律環境支持領導力成長。"
+        },
+        {
+          "key": "communityOrganisations",
+          "title": "社群組織",
+          "summary": "把領導訓練轉化為可見公共貢獻的社群合作。",
+          "collaborationModes": ["服務專案", "社群領導倡議"],
+          "value": "把教育轉化為可落地的公民影響。"
+        },
+        {
+          "key": "csrPartners",
+          "title": "企業社會責任夥伴",
+          "summary": "希望支持青年發展與領導路徑的 CSR 導向機構。",
+          "collaborationModes": ["贊助計畫", "影響力合作"],
+          "value": "把機構發展目標與可衡量的社會成果連結起來。"
+        }
+      ]
+    }
+  },
+  "programmes": {
+    "title": "課程與培訓",
+    "subtitle": "領導力路徑與機會發展",
+    "primaryCta": "申請課程",
+    "secondaryCta": "索取資訊",
+    "tertiaryCta": "聯絡 HMIOSS",
+    "phase2": {
+      "heroEyebrow": "旗艦機會",
+      "heroTitle": "開啟你的領導力旅程",
+      "heroBody": "HMIOSS 旗艦課程把領導力培育、職涯發展、產業接觸、學術資格與專業資格整合為一條完整的發展路徑。",
+      "heroStrapline": "一項學術資格，一項專業資格，一條整合式職涯路徑。",
+      "heroHighlights": [
+        "學術與專業雙資格結構",
+        "SPM 三科及格或同等資格",
+        "以導師引導結合真實世界接觸的成長歷程",
+        "更清晰地邁向職涯機會"
+      ],
+      "positioning": [
+        "領導力培育",
+        "職涯發展",
+        "產業接觸",
+        "學術資格",
+        "專業資格"
+      ],
+      "pathway": {
+        "title": "職涯路徑",
+        "description": "從學生起點走向受認可的成長階段，沿著結構化的領導力與機會路徑前進。",
+        "items": [
+          {
+            "title": "學生",
+            "description": "從一條清晰通往領導力與機會的路徑開始。"
+          },
+          {
+            "title": "培訓",
+            "description": "透過整合式學術與專業學習建立能力。"
+          },
+          {
+            "title": "產業接觸",
+            "description": "透過合作夥伴場域獲得實務理解。"
+          },
+          {
+            "title": "領導力培育",
+            "description": "強化紀律、責任感與真實世界準備度。"
+          },
+          {
+            "title": "職涯機會",
+            "description": "完成後邁向更清晰的下一步發展路徑。"
+          }
+        ]
+      },
+      "sections": {
+        "whyThisProgramme": {
+          "title": "為什麼選擇這項課程",
+          "description": "這條旗艦路徑把學習轉化為更清晰的領導力與職涯發展旅程。",
+          "points": [
+            "具備真實世界關聯性的領導力培育",
+            "把學習與機會連結起來的職涯導向學習",
+            "兼具學術與專業價值的雙資格結構"
+          ]
+        },
+        "industryExposure": {
+          "title": "產業接觸",
+          "description": "學生透過有結構的真實操作與專業場景接觸建立信心。",
+          "points": [
+            "合作夥伴場域",
+            "專業認知",
+            "實務學習情境"
+          ]
+        },
+        "roleOfHmioss": {
+          "title": "HMIOSS 的角色",
+          "description": "HMIOSS 以領導力塑造、導師引導與機構歸屬感為課程核心。",
+          "points": [
+            "領導力培育",
+            "導師環境",
+            "機構認同",
+            "社群參與"
+          ]
+        },
+        "roleOfGenovasi": {
+          "title": "Genovasi 的角色",
+          "description": "Genovasi 以受認可的結構、標準與教學支持學術路徑。",
+          "points": [
+            "學術資格路徑",
+            "教育結構與標準",
+            "正式學習支持"
+          ]
+        },
+        "entryRequirements": {
+          "title": "入學要求",
+          "description": "這項課程為希望獲得結構化成長與受認可進階的積極申請者而設。",
+          "items": [
+            "SPM 三科及格或同等資格",
+            "對領導力與學習有明確投入",
+            "對結構化發展路徑有興趣"
+          ]
+        }
+      },
+      "outcomesEyebrow": "以成果為導向",
+      "outcomes": [
+        "領導力技能",
+        "產業接觸",
+        "導師引導",
+        "專業認可",
+        "職涯進階"
+      ],
+      "cta": {
+        "eyebrow": "準備申請",
+        "title": "立即申請",
+        "description": "開啟你的 HMIOSS 領導力旅程，或先與團隊交流，確認最適合你目標的下一步。"
+      }
+    }
+  },
+  "impact": {
+    "title": "影響力",
+    "subtitle": "機構成果與佐證"
+  },
+  "news": {
+    "title": "新聞與活動",
+    "subtitle": "最新消息與活動",
+    "sectionTitle": "機構最新動態",
+    "sectionDescription": "掌握研究院的媒體報導、官方公告與即將展開的重要交流活動。",
+    "filters": {
+      "all": "全部",
+      "news": "新聞",
+      "events": "活動",
+      "announcements": "公告"
+    },
+    "readMore": "閱讀更多"
+  },
+  "research": {
+    "title": "研究與出版",
+    "subtitle": "研究領域與白皮書"
+  },
+  "join": {
+    "title": "加入我們",
+    "subtitle": "會員申請與社群影響",
+    "intro": "加入 HMIOSS，獲得有系統的成長機會、戰略人脈網絡，以及以服務為本的領導力發展平台。",
+    "conversionTitle": "會員價值",
+    "conversionDescription": "提供培訓資源、人脈連結、商務對接與獎學金相關機會。",
+    "journey": {
+      "eyebrow": "會員旅程",
+      "title": "加入後的發展流程",
+      "description": "從提出意向到積極參與，會員制度被設計為一條有引導的學習、領導與服務路徑。",
+      "items": [
+        {
+          "key": "interest",
+          "title": "提交加入意向",
+          "description": "向我們介紹您的背景、目標，以及希望如何參與 HMIOSS。"
+        },
+        {
+          "key": "review",
+          "title": "申請審核",
+          "description": "秘書處會根據會員類型、興趣方向與適合的參與方式進行初步評估。"
+        },
+        {
+          "key": "orientation",
+          "title": "啟動與導覽",
+          "description": "核准後，您將收到入會指引、課程資訊與社群介紹。"
+        },
+        {
+          "key": "participation",
+          "title": "參與並成長",
+          "description": "會員可參與課程、活動與服務機會，深化領導力與機構參與。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常見問題",
+      "description": "有關會員申請、啟動流程與 HMIOSS 發展機會的常見問題。",
+      "items": [
+        {
+          "question": "哪些人士可以申請成為會員？",
+          "answer": "認同 HMIOSS 價值與使命的個人、專業人士、學生與機構，皆可依現有會員類別提出申請。"
+        },
+        {
+          "question": "申請審核通常需要多久？",
+          "answer": "審核時間會因申請類型而有所不同，秘書處會在完成初步評估後盡快通知下一步。"
+        },
+        {
+          "question": "加入後可以參與哪些內容？",
+          "answer": "會員將獲得入會引導，並可根據自身情況參與課程、活動、人脈交流與服務型項目。"
+        }
+      ]
+    }
+  },
+  "contact": {
+    "title": "聯絡我們",
+    "subtitle": "秘書處聯絡方式"
+  },
+  "legal": {
+    "privacy": {
+      "title": "隱私政策"
+    },
+    "terms": {
+      "title": "服務條款"
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "tagline": "Legacy of Honor. Future of Strategy.",
+    "value": "HMIOSS develops future leaders through education, strategic thinking, research, national service, and international collaboration.",
+    "ctaPrimary": "Explore Our Programmes",
+    "ctaSecondary": "Partner With Us"
+  },
+  "authority": {
+    "items": [
+      "ROS Registered",
+      "Strategic Education Institution",
+      "International Hung Men Network",
+      "Leadership Development Focus",
+      "Strategic Partnerships"
+    ]
+  },
+  "pillars": {
+    "title": "Why HMIOSS",
+    "subtitle": "An institution built to develop capable leaders, credible networks, and long-term service orientation.",
+    "items": [
+      {
+        "title": "Leadership Formation",
+        "description": "Programmes cultivate judgment, discipline, and public-service minded leadership."
+      },
+      {
+        "title": "Strategic Education",
+        "description": "Learning pathways connect history, governance, technology, and applied strategy."
+      },
+      {
+        "title": "Research & Dialogue",
+        "description": "Research and convenings strengthen institutional thinking on community and national priorities."
+      },
+      {
+        "title": "Partnership Network",
+        "description": "Cross-sector and cross-border partnerships extend reach, credibility, and opportunity."
+      }
+    ]
+  },
+  "vision": {
+    "eyebrow": "Institutional Vision",
+    "title": "Developing leaders with capability, perspective, and service orientation",
+    "quote": "Education builds capability. Leadership builds nations. HMIOSS exists to develop both.",
+    "body": "We connect heritage, institutional discipline, and modern strategic education so members can lead with credibility at community, national, and international levels.",
+    "cta": "Learn More About Our Mission"
+  },
+  "flagship": {
+    "eyebrow": "Flagship Opportunity",
+    "title": "Launch Your Leadership Journey",
+    "strapline": "One Academic Qualification. One Professional Qualification. One Integrated Career Pathway.",
+    "description": "The Dual Credential Programme unites leadership development, career growth, industry exposure, and recognised qualifications in one clear pathway.",
+    "outcomesTitle": "What This Pathway Builds",
+    "positioning": [
+      "Leadership Development",
+      "Career Development",
+      "Industry Exposure",
+      "Academic Qualification",
+      "Professional Qualification"
+    ],
+    "outcomes": [
+      "Leadership Skills",
+      "Industry Exposure",
+      "Mentorship",
+      "Professional Recognition",
+      "Career Progression"
+    ],
+    "pathwayTitle": "Your Opportunity Pathway",
+    "pathway": [
+      {
+        "title": "Student",
+        "description": "Start with a pathway that moves beyond classroom-only learning."
+      },
+      {
+        "title": "Training",
+        "description": "Build capability through integrated academic and professional preparation."
+      },
+      {
+        "title": "Industry Exposure",
+        "description": "Gain visibility into real-world environments and expectations."
+      },
+      {
+        "title": "Leadership Development",
+        "description": "Grow confidence, discipline, and responsibility through guided progression."
+      },
+      {
+        "title": "Career Opportunities",
+        "description": "Move forward with clearer next-step pathways."
+      }
+    ],
+    "ctaPrimary": "Apply for Programme",
+    "ctaSecondary": "Request Information"
+  },
+  "partnershipSummary": {
+    "title": "Partnership Opportunities",
+    "description": "HMIOSS welcomes collaborations that strengthen talent development, leadership formation, and real-world opportunity pathways.",
+    "cta": "Become a Strategic Partner",
+    "categories": [
+      {
+        "title": "Universities",
+        "summary": "Academic collaboration and qualification pathways."
+      },
+      {
+        "title": "Training Providers",
+        "summary": "Applied capability and professional readiness."
+      },
+      {
+        "title": "Industry Partners",
+        "summary": "Exposure, employability, and practical opportunity."
+      },
+      {
+        "title": "Defence & Security Partners",
+        "summary": "Discipline, resilience, and structured readiness."
+      },
+      {
+        "title": "Community Organisations",
+        "summary": "Leadership applied through public contribution."
+      },
+      {
+        "title": "CSR Partners",
+        "summary": "Shared investment in talent and opportunity development."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Ready to Begin Your Leadership Journey?",
+    "primary": "Apply for Programme",
+    "secondary": "Become a Strategic Partner",
+    "tertiary": "Contact HMIOSS"
+  }
+}

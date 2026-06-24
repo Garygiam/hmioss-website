@@ -1,0 +1,47 @@
+{
+  "intro": "HMIOSS ialah institusi berteraskan kepimpinan yang menterjemah warisan Hung Men kepada pendidikan, strategi, dan khidmat.",
+  "storyExcerpt": "Selama lebih empat abad, Hung Men berdiri atas kesetiaan, kebenaran, dan perlindungan bersama. Di Malaysia hari ini, HMIOSS meneruskan legasi itu sebagai institusi berdaftar yang menumpukan pendidikan strategik, pembangunan kepimpinan, penyelidikan, dan khidmat negara. Kami menghubungkan sejarah dengan keupayaan praktikal agar ahli, rakan, dan komuniti dapat berkembang dengan disiplin, perspektif, dan tujuan.",
+  "keyMessage": "Kami memelihara warisan dengan membangunkan pemimpin yang berkeupayaan, institusi yang kukuh, dan komuniti yang sedia berkhidmat.",
+  "timelineTitle": "Perjalanan institusi",
+  "timeline": {
+    "title": "Dari warisan ke institusi kepimpinan",
+    "items": [
+      {
+        "period": "1600-an hingga 1800-an",
+        "title": "Nilai bersama dan perlindungan bersama",
+        "description": "Identiti Hung Men dibentuk oleh kesetiaan, disiplin, dan perpaduan."
+      },
+      {
+        "period": "Abad ke-20",
+        "title": "Kesinambungan komuniti di Malaysia",
+        "description": "Rangkaian mengekalkan rasa kekitaan, khidmat, dan kepercayaan antara generasi."
+      },
+      {
+        "period": "Hari ini",
+        "title": "Pendidikan strategik dan pembangunan kepimpinan",
+        "description": "HMIOSS menukar tradisi kepada pembentukan pemimpin, penyelidikan, perkongsian, dan sumbangan kepada negara."
+      }
+    ]
+  },
+  "focusAreas": {
+    "title": "Bidang Tumpuan Utama",
+    "items": [
+      {
+        "title": "Pembangunan Kepimpinan",
+        "description": "Membentuk pemimpin yang berkhidmat dengan pertimbangan, disiplin, dan kredibiliti."
+      },
+      {
+        "title": "Pendidikan Strategik",
+        "description": "Mewujudkan laluan pembelajaran yang menggabungkan warisan, teknologi, dan keupayaan praktikal."
+      },
+      {
+        "title": "Penyelidikan & Dialog",
+        "description": "Menyokong pemikiran awam dan institusi yang lebih matang melalui penyelidikan dan wacana."
+      },
+      {
+        "title": "Khidmat Komuniti & Negara",
+        "description": "Menterjemah nilai kepada khidmat, daya tahan, dan sumbangan jangka panjang."
+      }
+    ]
+  }
+}

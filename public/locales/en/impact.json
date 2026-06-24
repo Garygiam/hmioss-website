@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "eyebrow": "Institutional Proof",
+    "title": "Impact",
+    "subtitle": "Institutional outcomes and proof"
+  },
+  "highlightsTitle": "Impact at a glance",
+  "highlights": {
+    "leadership": {
+      "label": "Leadership Development",
+      "summary": "Leadership remains the first institutional priority across programmes, partnerships, and engagement."
+    },
+    "education": {
+      "label": "Educational Initiatives",
+      "summary": "Programmes are organised around talent development, learning pathways, and strategic capability building."
+    },
+    "research": {
+      "label": "Strategic Research",
+      "summary": "Research supports institutional dialogue, public understanding, and long-term capability development."
+    },
+    "community": {
+      "label": "Community Impact",
+      "summary": "Community and national service are framed as practical outcomes of leadership and education."
+    }
+  },
+  "sectionsTitle": "Institutional proof points",
+  "sections": {
+    "members": {
+      "title": "Members",
+      "summary": "A growing institutional network connected through leadership and development pathways.",
+      "points": [
+        "Leadership-oriented membership",
+        "Structured engagement",
+        "Cross-branch institutional identity"
+      ]
+    },
+    "branches": {
+      "title": "Branches",
+      "summary": "A distributed institutional footprint that supports programme reach and network participation.",
+      "points": [
+        "Regional presence",
+        "Coordination capacity",
+        "Network continuity"
+      ]
+    },
+    "programmes": {
+      "title": "Programmes",
+      "summary": "Programmes support education, capability building, and leadership formation.",
+      "points": [
+        "Educational initiatives",
+        "Strategic learning",
+        "Practical pathways"
+      ]
+    },
+    "partnerships": {
+      "title": "Partnerships",
+      "summary": "Strategic partnerships strengthen education, defence readiness, and institutional credibility.",
+      "points": [
+        "Education partners",
+        "Defence collaboration",
+        "Strategic ecosystem"
+      ]
+    },
+    "communityActivities": {
+      "title": "Community Activities",
+      "summary": "Community activities are framed as mission outcomes rather than standalone events.",
+      "points": [
+        "Service orientation",
+        "Public engagement",
+        "Applied leadership"
+      ]
+    },
+    "leadershipDevelopment": {
+      "title": "Leadership Development",
+      "summary": "Leadership development is the unifying institutional objective across the site.",
+      "points": [
+        "Talent development",
+        "Capability building",
+        "Leadership pathways"
+      ]
+    },
+    "events": {
+      "title": "Events",
+      "summary": "Events demonstrate institutional activity, community engagement, and partnership momentum.",
+      "points": [
+        "Forums",
+        "Programmes",
+        "Strategic visits"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Build the next chapter with us",
+    "body": "Partner with HMIOSS to expand leadership formation, institutional education, and meaningful community service.",
+    "primary": "Partner With HMIOSS",
+    "secondary": "Explore Our Programmes"
+  }
+}

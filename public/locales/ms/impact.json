@@ -1,0 +1,98 @@
+{
+  "hero": {
+    "eyebrow": "Bukti Institusi",
+    "title": "Impak",
+    "subtitle": "Hasil dan bukti institusi"
+  },
+  "highlightsTitle": "Gambaran impak",
+  "highlights": {
+    "leadership": {
+      "label": "Pembangunan Kepimpinan",
+      "summary": "Kepimpinan kekal sebagai keutamaan institusi utama merentas program, perkongsian, dan penglibatan."
+    },
+    "education": {
+      "label": "Inisiatif Pendidikan",
+      "summary": "Program disusun sekitar pembangunan bakat, laluan pembelajaran, dan pembinaan keupayaan strategik."
+    },
+    "research": {
+      "label": "Penyelidikan Strategik",
+      "summary": "Penyelidikan menyokong dialog institusi, kefahaman awam, dan pembangunan keupayaan jangka panjang."
+    },
+    "community": {
+      "label": "Impak Komuniti",
+      "summary": "Khidmat komuniti dan negara dilihat sebagai hasil praktikal daripada kepimpinan dan pendidikan."
+    }
+  },
+  "sectionsTitle": "Bukti utama institusi",
+  "sections": {
+    "members": {
+      "title": "Ahli",
+      "summary": "Rangkaian institusi yang berkembang dan dihubungkan melalui laluan kepimpinan serta pembangunan.",
+      "points": [
+        "Keahlian berorientasikan kepimpinan",
+        "Penglibatan berstruktur",
+        "Identiti institusi merentas cawangan"
+      ]
+    },
+    "branches": {
+      "title": "Cawangan",
+      "summary": "Jejak institusi yang diedarkan untuk menyokong jangkauan program dan penyertaan rangkaian.",
+      "points": [
+        "Kehadiran serantau",
+        "Keupayaan penyelarasan",
+        "Kesinambungan rangkaian"
+      ]
+    },
+    "programmes": {
+      "title": "Program",
+      "summary": "Program menyokong pendidikan, pembinaan keupayaan, dan pembentukan kepimpinan.",
+      "points": [
+        "Inisiatif pendidikan",
+        "Pembelajaran strategik",
+        "Laluan praktikal"
+      ]
+    },
+    "partnerships": {
+      "title": "Perkongsian",
+      "summary": "Perkongsian strategik mengukuhkan pendidikan, kesiapsiagaan pertahanan, dan kredibiliti institusi.",
+      "points": [
+        "Rakan pendidikan",
+        "Kerjasama pertahanan",
+        "Ekosistem strategik"
+      ]
+    },
+    "communityActivities": {
+      "title": "Aktiviti Komuniti",
+      "summary": "Aktiviti komuniti dibingkai sebagai hasil misi, bukan acara terpencil.",
+      "points": [
+        "Orientasi khidmat",
+        "Penglibatan awam",
+        "Kepimpinan gunaan"
+      ]
+    },
+    "leadershipDevelopment": {
+      "title": "Pembangunan Kepimpinan",
+      "summary": "Pembangunan kepimpinan ialah objektif institusi yang menyatukan seluruh laman.",
+      "points": [
+        "Pembangunan bakat",
+        "Pembinaan keupayaan",
+        "Laluan kepimpinan"
+      ]
+    },
+    "events": {
+      "title": "Acara",
+      "summary": "Acara menunjukkan aktiviti institusi, penglibatan komuniti, dan momentum perkongsian.",
+      "points": [
+        "Forum",
+        "Program",
+        "Lawatan strategik"
+      ]
+    }
+  },
+  "cta": {
+    "title": "Bina fasa seterusnya bersama kami",
+    "body": "Bekerjasama dengan HMIOSS untuk memperluas pembentukan kepimpinan, pendidikan institusi, dan khidmat komuniti yang bermakna.",
+    "primary": "Bekerjasama dengan HMIOSS",
+    "secondary": "Terokai Program Kami"
+  }
+}

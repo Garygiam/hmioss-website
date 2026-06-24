@@ -1,0 +1,33 @@
+{
+  "missionTitle": "Misi",
+  "visionTitle": "Visi",
+  "visionText": "Menjadi platform strategik dan hab bakat yang membangunkan pemimpin Hung Men yang berkeupayaan untuk Malaysia dan rangkaian antarabangsa yang lebih luas.",
+  "missionBullets": [
+    "Meningkatkan kepimpinan, pendidikan, dan keupayaan profesional di seluruh rangkaian kami.",
+    "Menghubungkan bakat Hung Men, rakan institusi, dan peluang strategik.",
+    "Memupuk kepimpinan belia, disiplin, dan perspektif antarabangsa.",
+    "Mengukuhkan keupayaan dalam penyelidikan, teknologi, AI, dan transformasi industri.",
+    "Menggalakkan khidmat awam dan sumbangan kepada negara dalam bidang sivil serta pertahanan."
+  ],
+  "coreValuesTitle": "Nilai Teras",
+  "coreValuesText": "Kesetiaan sebagai asas, kebijaksanaan sebagai alat; berkhidmat untuk negara, mengukuhkan komuniti.",
+  "prioritiesTitle": "Keutamaan Strategik",
+  "priorities": [
+    {
+      "title": "Pembangunan Kepimpinan",
+      "description": "Membina pemimpin yang boleh memandu institusi, komuniti, dan inisiatif masa depan dengan kredibiliti."
+    },
+    {
+      "title": "Pendidikan Institusi",
+      "description": "Menyampaikan pembelajaran berstruktur yang menggabungkan warisan, strategi, teknologi, dan keupayaan praktikal."
+    },
+    {
+      "title": "Penyelidikan & Dialog",
+      "description": "Menjana perspektif yang bernas untuk menyokong penglibatan yang matang dalam isu awam dan institusi."
+    },
+    {
+      "title": "Khidmat & Perkongsian",
+      "description": "Menyelaraskan program dan perkongsian dengan sumbangan nasional, daya tahan komuniti, dan impak jangka panjang."
+    }
+  ]
+}

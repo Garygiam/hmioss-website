@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "tagline": "Warisan Kehormatan. Masa Depan Strategi.",
+    "value": "HMIOSS membangunkan pemimpin masa depan melalui pendidikan, pemikiran strategik, penyelidikan, khidmat negara, dan kerjasama antarabangsa.",
+    "ctaPrimary": "Terokai Program Kami",
+    "ctaSecondary": "Jadi Rakan Kami"
+  },
+  "authority": {
+    "items": [
+      "Berdaftar ROS",
+      "Institusi Pendidikan Strategik",
+      "Rangkaian Hung Men Antarabangsa",
+      "Fokus Pembangunan Kepimpinan",
+      "Perkongsian Strategik"
+    ]
+  },
+  "pillars": {
+    "title": "Mengapa HMIOSS",
+    "subtitle": "Institusi jangka panjang yang dibina atas kepimpinan, pendidikan, dan khidmat.",
+    "items": [
+      {
+        "title": "Pembentukan Kepimpinan",
+        "description": "Program membina pertimbangan, disiplin, dan semangat khidmat awam."
+      },
+      {
+        "title": "Pendidikan Strategik",
+        "description": "Laluan pembelajaran menghubungkan warisan, tadbir urus, teknologi, dan strategi gunaan."
+      },
+      {
+        "title": "Penyelidikan & Dialog",
+        "description": "Penyelidikan dan wacana mengukuhkan pemikiran institusi tentang keutamaan komuniti dan negara."
+      },
+      {
+        "title": "Rangkaian Rakan",
+        "description": "Perkongsian rentas sektor dan rentas sempadan meluaskan jangkauan, kredibiliti, dan peluang."
+      }
+    ]
+  },
+  "vision": {
+    "eyebrow": "Visi Institusi",
+    "title": "Membangunkan pemimpin yang mempunyai keupayaan, perspektif, dan semangat khidmat",
+    "quote": "Pendidikan membina keupayaan. Kepimpinan membina negara. HMIOSS wujud untuk membangunkan kedua-duanya.",
+    "body": "Kami menggabungkan warisan, disiplin institusi, dan pendidikan strategik moden supaya ahli dapat memimpin dengan kredibiliti di peringkat komuniti, nasional, dan antarabangsa.",
+    "cta": "Ketahui Misi Kami"
+  },
+  "flagship": {
+    "eyebrow": "Peluang Utama",
+    "title": "Mulakan Perjalanan Kepimpinan Anda",
+    "strapline": "Satu Kelayakan Akademik. Satu Kelayakan Profesional. Satu Laluan Kerjaya Bersepadu.",
+    "description": "Program Dwi Kelayakan menggabungkan pembangunan kepimpinan, kemajuan kerjaya, pendedahan industri, dan kelayakan yang diiktiraf dalam satu laluan yang jelas.",
+    "outcomesTitle": "Apa Yang Dibina Oleh Laluan Ini",
+    "positioning": [
+      "Pembangunan Kepimpinan",
+      "Pembangunan Kerjaya",
+      "Pendedahan Industri",
+      "Kelayakan Akademik",
+      "Kelayakan Profesional"
+    ],
+    "outcomes": [
+      "Kemahiran Kepimpinan",
+      "Pendedahan Industri",
+      "Bimbingan",
+      "Pengiktirafan Profesional",
+      "Kemajuan Kerjaya"
+    ],
+    "pathwayTitle": "Laluan Peluang Anda",
+    "pathway": [
+      {
+        "title": "Pelajar",
+        "description": "Mulakan dengan laluan yang melangkaui pembelajaran bilik darjah semata-mata."
+      },
+      {
+        "title": "Latihan",
+        "description": "Bina keupayaan melalui persediaan akademik dan profesional yang bersepadu."
+      },
+      {
+        "title": "Pendedahan Industri",
+        "description": "Dapatkan gambaran tentang persekitaran dan jangkaan dunia sebenar."
+      },
+      {
+        "title": "Pembangunan Kepimpinan",
+        "description": "Bina keyakinan, disiplin, dan tanggungjawab melalui perkembangan berpandu."
+      },
+      {
+        "title": "Peluang Kerjaya",
+        "description": "Melangkah ke hadapan dengan hala tuju seterusnya yang lebih jelas."
+      }
+    ],
+    "ctaPrimary": "Mohon Program",
+    "ctaSecondary": "Minta Maklumat"
+  },
+  "partnershipSummary": {
+    "title": "Peluang Kerjasama",
+    "description": "HMIOSS mengalu-alukan kerjasama yang mengukuhkan pembangunan bakat, pembentukan kepimpinan, dan laluan peluang dunia sebenar.",
+    "cta": "Jadi Rakan Strategik",
+    "categories": [
+      {
+        "title": "Universiti",
+        "summary": "Kerjasama akademik dan laluan kelayakan."
+      },
+      {
+        "title": "Penyedia Latihan",
+        "summary": "Keupayaan gunaan dan kesiapsiagaan profesional."
+      },
+      {
+        "title": "Rakan Industri",
+        "summary": "Pendedahan, kebolehpasaran, dan peluang praktikal."
+      },
+      {
+        "title": "Rakan Pertahanan & Keselamatan",
+        "summary": "Disiplin, daya tahan, dan kesiapsiagaan berstruktur."
+      },
+      {
+        "title": "Organisasi Komuniti",
+        "summary": "Kepimpinan diterjemahkan kepada sumbangan awam."
+      },
+      {
+        "title": "Rakan CSR",
+        "summary": "Pelaburan bersama dalam pembangunan bakat dan peluang."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Bersedia Untuk Mulakan Perjalanan Kepimpinan Anda?",
+    "primary": "Mohon Program",
+    "secondary": "Jadi Rakan Strategik",
+    "tertiary": "Hubungi HMIOSS"
+  }
+}
