@@ -6,6 +6,17 @@
 
 **Scope:** Candidate Discovery specification for a single reference implementation. This is not a GEH standard.
 
+## Reference Implementation Metadata
+
+- `Reference Implementation`: HMIOSS
+- `Venture`: HMIOSS
+- `Slice`: Homepage — Trust Barrier Refinement
+- `Candidate Discovery Version`: v0.1
+- `Reference Implementation Number`: RI-002
+- `Previous RI`: IGC Homepage Executive Narrative
+- `Hypothesis Owner`: GEH Candidate Discovery
+- `Status`: Under Test
+
 ## Purpose
 
 This slice tests whether the current homepage `Trust` barrier can be materially reduced through narrative refinement alone, using only institutional evidence already present in the homepage narrative.
@@ -15,6 +26,8 @@ The objective is not to maximize persuasion, completeness, or aesthetic polish.
 The objective is to generate clean implementation evidence for one question:
 
 > Can the current Trust barrier be materially reduced using the institutional evidence already present on the homepage?
+
+The objective of this specification is not to produce the strongest homepage. The objective is to learn whether the current hypothesis survives contact with a real implementation.
 
 ## Slice Shape
 
