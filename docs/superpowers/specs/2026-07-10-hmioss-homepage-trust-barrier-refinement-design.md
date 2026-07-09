@@ -218,3 +218,20 @@ This slice must produce one of two evidence outcomes:
 2. Narrative refinement alone does not materially reduce the Trust barrier, which weakens the current hypothesis and increases the importance of the later Institutional Proof Expansion slice.
 
 Either result is valid if it is supported by production verification and documented evidence review.
+
+## Known Limitations
+
+This reference implementation cannot determine:
+
+- whether Trust is universally the highest-leverage barrier
+- whether the Human Understanding Layers are complete
+- whether the findings transfer beyond HMIOSS
+
+These questions require additional reference implementations.
+
+## Evidence Confidence
+
+- `Hypothesis`: Medium
+- `Supporting Evidence`: Medium-High
+- `Competing Explanations`: Still Active
+- `Promotion Eligibility`: Not Eligible
