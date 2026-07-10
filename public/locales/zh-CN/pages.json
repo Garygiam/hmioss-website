@@ -16,6 +16,10 @@
       "description": "以机构层级呈现，强调治理结构与领导公信力，而非企业式汇报关系。"
     }
   },
+  "recognition": {
+    "title": "Recognition & Credentials",
+    "subtitle": "已核实的机构凭证与公开证据"
+  },
   "partners": {
     "title": "合作伙伴",
     "subtitle": "战略合作机构",

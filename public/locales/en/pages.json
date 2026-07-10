@@ -16,6 +16,10 @@
       "description": "Presented as institutional tiers to communicate governance structure and leadership credibility."
     }
   },
+  "recognition": {
+    "title": "Recognition & Credentials",
+    "subtitle": "Verified institutional credentials and public evidence"
+  },
   "partners": {
     "title": "Partner Institutions",
     "subtitle": "Our strategic collaborations",

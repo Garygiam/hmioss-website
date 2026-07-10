@@ -16,6 +16,10 @@
       "description": "以機構層級呈現，強調治理結構與領導公信力，而非企業式匯報關係。"
     }
   },
+  "recognition": {
+    "title": "Recognition & Credentials",
+    "subtitle": "已核實的機構憑證與公開證據"
+  },
   "partners": {
     "title": "合作夥伴",
     "subtitle": "戰略合作機構",

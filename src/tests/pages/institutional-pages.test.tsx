@@ -5,11 +5,13 @@ import { beforeEach, describe, expect, it, vi } from "vitest";
 import enAbout from "../../../public/locales/en/about.json";
 import enMission from "../../../public/locales/en/mission.json";
 import enPages from "../../../public/locales/en/pages.json";
+import enRecognition from "../../../public/locales/en/recognition.json";
 
 import { leadershipGroups } from "@/config/leadership";
 import AboutPage from "@/pages/[locale]/about";
 import LeadershipPage from "@/pages/[locale]/leadership";
 import MissionVisionPage from "@/pages/[locale]/mission-vision";
+import RecognitionPage from "@/pages/[locale]/recognition";
 
 const pageSeoSpy = vi.fn();
 const approvedLeadershipPackage = [
@@ -50,6 +52,7 @@ vi.mock("next-i18next", () => ({
         about: enAbout,
         mission: enMission,
         pages: enPages,
+        recognition: enRecognition,
       } as const;
       const bundle = bundles[namespace as keyof typeof bundles];
       const value = segments
@@ -171,5 +174,24 @@ describe("institutional content pages", () => {
         title: `${enPages.leadership.title} | HMIOSS`,
       }),
     );
+  });
+
+  it("renders only non-empty institutional credential groups on the recognition page", () => {
+    render(<RecognitionPage locale="en" />);
+
+    expect(screen.getByRole("heading", { name: enPages.recognition.title })).toBeInTheDocument();
+    expect(
+      screen.getByRole("heading", { name: enRecognition.groups.congratulatoryLetters.title }),
+    ).toBeInTheDocument();
+    expect(
+      screen.queryByRole("heading", { name: enRecognition.groups.officialRegistration.title }),
+    ).not.toBeInTheDocument();
+
+    expect(screen.getByText("Chinese Youth Entrepreneurs Association")).toBeInTheDocument();
+    expect(
+      screen.getByText("Holland-China Business Culture & Education Association"),
+    ).toBeInTheDocument();
+    expect(screen.queryByText("ROS Registration Certificate")).not.toBeInTheDocument();
+    expect(screen.queryByText("Taiwan Chamber of Commerce in Orange County")).not.toBeInTheDocument();
   });
 });

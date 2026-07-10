@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "eyebrow": "Institutional Credentials",
+    "subtitle": "Verified public institutional credentials and acknowledgements currently available for HMIOSS."
+  },
+  "sectionTitle": "Institutional Credentials",
+  "sectionDescription": "Verified institutional credentials communicate legitimacy, collaboration, and current public evidence for HMIOSS.",
+  "groups": {
+    "officialRegistration": {
+      "eyebrow": "Institutional Credential",
+      "title": "Official Registration",
+      "description": "Formal registration and statutory institutional credentials.",
+      "viewCredential": "View Certificate"
+    },
+    "congratulatoryLetters": {
+      "eyebrow": "Institutional Credential",
+      "title": "Congratulatory Letters",
+      "description": "Verified letters of congratulations and institutional acknowledgement.",
+      "viewCredential": "View Letter"
+    }
+  },
+  "labels": {
+    "date": "Date",
+    "country": "Country / Territory",
+    "documentType": "Document Type"
+  }
+}

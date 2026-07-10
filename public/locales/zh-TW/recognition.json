@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "eyebrow": "機構憑證",
+    "subtitle": "展示 HMIOSS 目前已核實、可公開發布的機構憑證與致意證明。"
+  },
+  "sectionTitle": "機構憑證",
+  "sectionDescription": "經核實的機構憑證體現 HMIOSS 目前可公開展示的合法性、合作關係與機構證據。",
+  "groups": {
+    "officialRegistration": {
+      "eyebrow": "機構憑證",
+      "title": "官方註冊",
+      "description": "法定註冊與機構正式憑證。",
+      "viewCredential": "查看證書"
+    },
+    "congratulatoryLetters": {
+      "eyebrow": "機構憑證",
+      "title": "賀函",
+      "description": "已核實的機構賀函與正式致意。",
+      "viewCredential": "查看賀函"
+    }
+  },
+  "labels": {
+    "date": "日期",
+    "country": "國家 / 地區",
+    "documentType": "文件類型"
+  }
+}

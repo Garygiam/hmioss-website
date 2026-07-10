@@ -1,0 +1,27 @@
+{
+  "hero": {
+    "eyebrow": "Kredensial Institusi",
+    "subtitle": "Kredensial institusi awam yang telah disahkan dan pengiktirafan yang kini tersedia untuk HMIOSS."
+  },
+  "sectionTitle": "Kredensial Institusi",
+  "sectionDescription": "Kredensial institusi yang disahkan menunjukkan legitimasi, kerjasama, dan bukti awam semasa untuk HMIOSS.",
+  "groups": {
+    "officialRegistration": {
+      "eyebrow": "Kredensial Institusi",
+      "title": "Pendaftaran Rasmi",
+      "description": "Pendaftaran rasmi dan kredensial institusi berkanun.",
+      "viewCredential": "Lihat Sijil"
+    },
+    "congratulatoryLetters": {
+      "eyebrow": "Kredensial Institusi",
+      "title": "Surat Tahniah",
+      "description": "Surat tahniah dan pengiktirafan institusi yang telah disahkan.",
+      "viewCredential": "Lihat Surat"
+    }
+  },
+  "labels": {
+    "date": "Tarikh",
+    "country": "Negara / Wilayah",
+    "documentType": "Jenis Dokumen"
+  }
+}
