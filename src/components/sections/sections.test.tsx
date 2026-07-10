@@ -25,6 +25,34 @@ describe("institutional section components", () => {
     expect(screen.getByText("Leadership Development Focus")).toBeInTheDocument();
   });
 
+  it("renders authority framing above the existing credibility labels", () => {
+    render(
+      <AuthorityStrip
+        eyebrow="Institutional Trust"
+        items={[
+          "ROS Registered",
+          "Strategic Education Institution",
+          "Leadership Development Focus",
+        ]}
+        summary="These signals matter together: HMIOSS is formally registered, leadership-focused, internationally connected, and partnership-oriented."
+        title="An institution built on registration, strategic focus, and cross-border collaboration"
+      />,
+    );
+
+    expect(screen.getByText("Institutional Trust")).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        "An institution built on registration, strategic focus, and cross-border collaboration",
+      ),
+    ).toBeInTheDocument();
+    expect(
+      screen.getByText(
+        "These signals matter together: HMIOSS is formally registered, leadership-focused, internationally connected, and partnership-oriented.",
+      ),
+    ).toBeInTheDocument();
+    expect(screen.getByText("ROS Registered")).toBeInTheDocument();
+  });
+
   it("renders institutional metrics with optional descriptions", () => {
     render(
       <InstitutionalMetrics

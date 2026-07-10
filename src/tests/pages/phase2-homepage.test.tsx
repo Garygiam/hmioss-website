@@ -104,6 +104,34 @@ describe("Phase 2 homepage", () => {
     expect(screen.getByRole("heading", { name: enHome.flagship.pathwayTitle })).toBeInTheDocument();
   });
 
+  it("renders trust narrative consolidation copy while preserving the approved homepage order", () => {
+    mockLocale = "en";
+    mockHomeBundle = enHome;
+
+    render(<HomePage locale="en" />);
+
+    const whyHmiossHeading = screen.getByRole("heading", { name: enHome.pillars.title });
+    const flagshipHeading = screen.getByRole("heading", { name: enHome.flagship.title });
+    const metricsHeading = screen.getByRole("heading", { name: enHome.metrics.title });
+
+    expect(
+      screen.getByText(
+        "HMIOSS is a ROS-registered strategic education institution that develops future leaders through education, strategic thinking, research, national service, and international collaboration.",
+      ),
+    ).toBeInTheDocument();
+    expect(screen.getByText(enHome.authority.title)).toBeInTheDocument();
+    expect(screen.getByText(enHome.authority.summary)).toBeInTheDocument();
+    expect(screen.getByText(enHome.metrics.description)).toBeInTheDocument();
+    expect(
+      whyHmiossHeading.compareDocumentPosition(flagshipHeading) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+    expect(
+      flagshipHeading.compareDocumentPosition(metricsHeading) &
+        Node.DOCUMENT_POSITION_FOLLOWING,
+    ).toBeTruthy();
+  });
+
   it("renders the homepage partnership summary and final conversion CTA block", () => {
     mockLocale = "en";
     mockHomeBundle = enHome;

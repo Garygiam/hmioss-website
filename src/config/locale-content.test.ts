@@ -102,7 +102,14 @@ describe("phase 1 locale messaging", () => {
   it.each(Object.entries(localeBundles))(
     "%s extends home messaging with authority, pillars, and institutional vision content",
     (_locale, bundle) => {
+      expect(bundle.home.authority.eyebrow).toEqual(expect.any(String));
+      expect(bundle.home.authority.title).toEqual(expect.any(String));
+      expect(bundle.home.authority.summary).toEqual(expect.any(String));
       expect(bundle.home.authority.items).toHaveLength(5);
+      expect(bundle.home.metrics.eyebrow).toEqual(expect.any(String));
+      expect(bundle.home.metrics.title).toEqual(expect.any(String));
+      expect(bundle.home.metrics.description).toEqual(expect.any(String));
+      expect(bundle.home.metrics.items).toHaveLength(5);
       expect(bundle.home.pillars.title).toEqual(expect.any(String));
       expect(bundle.home.pillars.items.length).toBeGreaterThanOrEqual(3);
       expect(bundle.home.vision.eyebrow).toEqual(expect.any(String));
