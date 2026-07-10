@@ -2,7 +2,7 @@
 
 **Date:** 2026-06-25
 
-**Status:** In Progress
+**Status:** Frozen — Production Verified Baseline (RI-002)
 
 **Boundary:** Candidate Discovery only. Not GEH Core. Not a permanent GEH standard. Not a client-facing diagnostic.
 
@@ -128,3 +128,11 @@
 - Observation: Immediately after the successful push, the live Vercel homepage still served the pre-refinement variant for a short interval before the trust-consolidation copy appeared.
 - Why it does not fit the current model: This is an operational deployment-timing issue rather than a visitor-understanding or homepage-layer explanation.
 - Whether it suggests a new barrier or stronger competing explanation: It does not suggest a new visitor barrier. It does suggest that future production verification should explicitly account for deployment propagation delay before drawing a conclusion from the live site.
+
+## Slice Freeze Close-Out — HMIOSS Homepage — Trust Barrier Refinement
+
+- `Baseline`: The current production homepage is the verified baseline for this reference implementation.
+- `Outcome`: Supports Hypothesis.
+- `Barrier assessment`: The Trust barrier was assessed as materially reduced through narrative refinement alone, without introducing new institutional proof assets or changing the homepage sequence.
+- `Candidate causes status`: Sequencing, philosophy under-clarity, thematic proof, and institutional identity breadth remain open competing explanations. None are treated as disproven by this slice.
+- `Operational observation`: Deployment propagation delay was observed during production verification; it is recorded as an operational verification note only, not a visitor barrier or causal explanation.

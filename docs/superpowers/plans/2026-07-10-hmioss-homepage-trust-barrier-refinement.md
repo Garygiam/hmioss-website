@@ -8,6 +8,8 @@
 
 **Tech Stack:** Next.js Pages Router, React 19, TypeScript, next-i18next, Vitest, ESLint
 
+**Status:** Frozen — Production Verified Baseline
+
 ---
 
 ## File Map
