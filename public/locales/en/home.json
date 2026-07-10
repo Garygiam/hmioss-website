@@ -1,17 +1,32 @@
 {
   "hero": {
     "tagline": "Legacy of Honor. Future of Strategy.",
-    "value": "HMIOSS develops future leaders through education, strategic thinking, research, national service, and international collaboration.",
+    "value": "HMIOSS is a ROS-registered strategic education institution that develops future leaders through education, strategic thinking, research, national service, and international collaboration.",
     "ctaPrimary": "Explore Our Programmes",
     "ctaSecondary": "Partner With Us"
   },
   "authority": {
+    "eyebrow": "Institutional Trust",
+    "title": "An institution built on registration, strategic focus, and cross-border collaboration",
+    "summary": "These signals matter together: HMIOSS is formally registered, leadership-focused, internationally connected, and partnership-oriented.",
     "items": [
       "ROS Registered",
       "Strategic Education Institution",
       "International Hung Men Network",
       "Leadership Development Focus",
       "Strategic Partnerships"
+    ]
+  },
+  "metrics": {
+    "eyebrow": "Institutional Priorities",
+    "title": "How HMIOSS turns institutional legitimacy into continuous work",
+    "description": "The same institutional case continues through five reinforcing priorities: strategy, leadership, education, community contribution, and network strength.",
+    "items": [
+      "Strategy keeps education, partnerships, and service aligned with long-term institutional judgment.",
+      "Leadership development remains the institute's first formation priority.",
+      "Education gives HMIOSS a structured pathway for building capability.",
+      "Community contribution turns institutional intent into visible public service.",
+      "Institutional network strength connects members to wider collaboration and opportunity."
     ]
   },
   "pillars": {

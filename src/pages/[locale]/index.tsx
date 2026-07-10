@@ -34,9 +34,22 @@ export default function LocalizedHomePage({ locale }: HomePageProps) {
   const effectiveLocale =
     typeof localeParam === "string" ? (localeParam as Locale) : locale;
   const heroBody = t("home:hero.value");
-  const authorityItems = t("home:authority.items", {
+  const authority = t("home:authority", {
     returnObjects: true,
-  }) as string[];
+  }) as {
+    eyebrow: string;
+    title: string;
+    summary: string;
+    items: string[];
+  };
+  const metrics = t("home:metrics", {
+    returnObjects: true,
+  }) as {
+    eyebrow: string;
+    title: string;
+    description: string;
+    items: string[];
+  };
   const pillars = t("home:pillars.items", {
     returnObjects: true,
   }) as { title: string; description: string }[];
@@ -61,9 +74,10 @@ export default function LocalizedHomePage({ locale }: HomePageProps) {
   const localizedPartnershipCategories = t("home:partnershipSummary.categories", {
     returnObjects: true,
   }) as { title: string; summary: string }[];
-  const metricItems = siteConfig.stats.map((stat) => ({
+  const metricItems = siteConfig.stats.map((stat, index) => ({
     value: stat.value,
     label: t(`common:${stat.labelKey}`),
+    description: metrics.items[index],
   }));
   const flagshipPathwayItems = flagshipProgrammePathway.map((item, index) => ({
     key: item.key,
@@ -106,7 +120,12 @@ export default function LocalizedHomePage({ locale }: HomePageProps) {
       </PageHero>
       <section className="bg-white py-10">
         <Container>
-          <AuthorityStrip items={authorityItems} />
+          <AuthorityStrip
+            eyebrow={authority.eyebrow}
+            items={authority.items}
+            summary={authority.summary}
+            title={authority.title}
+          />
         </Container>
       </section>
       <section className="bg-white py-16">
@@ -202,7 +221,12 @@ export default function LocalizedHomePage({ locale }: HomePageProps) {
         </Container>
       </section>
       <section className="bg-[#F8F7F2] py-16">
-        <Container>
+        <Container className="grid gap-10">
+          <SectionHeading
+            eyebrow={metrics.eyebrow}
+            title={metrics.title}
+            description={metrics.description}
+          />
           <InstitutionalMetrics items={metricItems} />
         </Container>
       </section>

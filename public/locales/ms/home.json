@@ -1,17 +1,32 @@
 {
   "hero": {
     "tagline": "Warisan Kehormatan. Masa Depan Strategi.",
-    "value": "HMIOSS membangunkan pemimpin masa depan melalui pendidikan, pemikiran strategik, penyelidikan, khidmat negara, dan kerjasama antarabangsa.",
+    "value": "HMIOSS ialah institusi pendidikan strategik berdaftar ROS yang membangunkan pemimpin masa depan melalui pendidikan, pemikiran strategik, penyelidikan, khidmat negara, dan kerjasama antarabangsa.",
     "ctaPrimary": "Terokai Program Kami",
     "ctaSecondary": "Jadi Rakan Kami"
   },
   "authority": {
+    "eyebrow": "Kepercayaan Institusi",
+    "title": "Institusi yang dibina atas pendaftaran rasmi, fokus strategik, dan kerjasama rentas sempadan",
+    "summary": "Isyarat ini membawa maksud secara bersama: HMIOSS berdaftar secara rasmi, berfokus pada kepimpinan, terhubung di peringkat antarabangsa, dan berorientasikan perkongsian.",
     "items": [
       "Berdaftar ROS",
       "Institusi Pendidikan Strategik",
       "Rangkaian Hung Men Antarabangsa",
       "Fokus Pembangunan Kepimpinan",
       "Perkongsian Strategik"
+    ]
+  },
+  "metrics": {
+    "eyebrow": "Keutamaan Institusi",
+    "title": "Bagaimana HMIOSS meneruskan legitimasi institusi melalui kerja yang berterusan",
+    "description": "Kes institusi yang sama diteruskan melalui lima keutamaan yang saling menguatkan: strategi, kepimpinan, pendidikan, sumbangan komuniti, dan kekuatan rangkaian.",
+    "items": [
+      "Strategi memastikan pendidikan, perkongsian, dan khidmat kekal selaras dengan pertimbangan institusi jangka panjang.",
+      "Pembangunan kepimpinan kekal sebagai keutamaan pembentukan utama institusi.",
+      "Pendidikan memberi HMIOSS laluan berstruktur untuk membina keupayaan.",
+      "Sumbangan komuniti menukar niat institusi kepada khidmat awam yang nyata.",
+      "Kekuatan rangkaian institusi menghubungkan ahli dengan kerjasama dan peluang yang lebih luas."
     ]
   },
   "pillars": {
