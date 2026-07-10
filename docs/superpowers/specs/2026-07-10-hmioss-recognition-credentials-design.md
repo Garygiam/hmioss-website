@@ -119,6 +119,29 @@ This means:
 
 The page architecture must still support those credential families so they can be added later without page redesign.
 
+## Baseline Asset Gate
+
+Every credential in this slice must be classified as one of:
+
+- `Required for Recognition v1`
+- `Deferred to a later version`
+- `Rejected / not publishable`
+
+This gate prevents `verified-assets-only` from degrading into "publish whatever happens to be available."
+
+Implementation may begin before every required asset arrives, but the slice must not become `Production Certified` until all `Required for Recognition v1` credentials are present and verified for public display.
+
+### Current Recognition v1 Classification
+
+- `ROS registration certificate` -> `Required for Recognition v1`
+- `Verified congratulatory letters already supplied` -> `Required for Recognition v1`
+- `TCCOC letter` -> `Gary decision required: Required for Recognition v1 or Deferred to a later version`
+- `Unidentified 賀函.pdf` -> `Rejected / not publishable until identified and verified`
+
+### Certification Implication
+
+The Recognition page may be implemented using the currently verified public credentials, but the slice cannot be certified while any credential still classified as `Required for Recognition v1` remains missing or unverified.
+
 ## Page Structure
 
 The page should present:
@@ -185,7 +208,8 @@ The slice becomes the certified Recognition baseline only after:
 - implementation is complete,
 - Gary Review is complete,
 - slice verification passes,
-- production verification passes.
+- production verification passes,
+- every credential classified as `Required for Recognition v1` is present and verified for public display.
 
 ## Deferred Follow-On Slice
 
