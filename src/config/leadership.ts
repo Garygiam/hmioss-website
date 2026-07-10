@@ -15,119 +15,144 @@ export type LeadershipGroup = {
   members: LeadershipMember[];
 };
 
-function createPortraitImage(prompt: string) {
-  return `https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=${encodeURIComponent(
-    prompt,
-  )}&image_size=portrait_4_3`;
-}
-
 export const leadershipGroups: LeadershipGroup[] = [
   {
     key: "president",
     eyebrow: "Tier 1",
-    title: "President",
+    title: "Chairman",
     description: "Strategic and institutional leadership for the institute.",
     members: [
       {
         name: "Young Shang Yi",
-        title: "President / Founder",
-        bio: "Provides founding vision for HMIOSS with a focus on leadership development, institutional credibility, and long-term strategic partnerships.",
+        title: "Chairman",
+        bio: "Provides strategic direction and institutional leadership for HMIOSS development and long-term partnership growth.",
         expertise: [
           "Institution Building",
           "Leadership Development",
           "Strategic Partnerships",
         ],
-        imageSrc: createPortraitImage(
-          "formal studio portrait of an asian institutional founder in a navy suit, confident expression, premium editorial photography, neutral background",
-        ),
-        imageAlt: "Portrait of Young Shang Yi, President and Founder of HMIOSS",
+        imageSrc: "/images/leadership/young-shang-yi.webp",
+        imageAlt: "Portrait of Young Shang Yi, Chairman of HMIOSS",
       },
     ],
   },
   {
     key: "deputyPresidents",
     eyebrow: "Tier 2",
-    title: "Deputy Presidents",
-    description: "Executive support for governance, strategy, and institutional stewardship.",
+    title: "Deputy Chairman and Vice Presidents",
+    description: "Executive leadership supporting governance, strategy, and institutional delivery.",
     members: [
       {
-        name: "Datuk Henry Lee",
-        title: "Deputy President",
-        bio: "Supports institutional strategy and executive stewardship to align HMIOSS priorities with long-term leadership outcomes and governance discipline.",
+        name: "Dato’ Sri Charles Hwang",
+        title: "Deputy Chairman",
+        bio: "Supports institutional governance and strategic alignment to strengthen long-term leadership outcomes.",
+        expertise: [
+          "Institutional Strategy",
+          "Governance Stewardship",
+          "Executive Coordination",
+        ],
+        imageSrc: "/images/leadership/dato-sri-charles-hwang.webp",
+        imageAlt: "Portrait of Dato’ Sri Charles Hwang, Deputy Chairman of HMIOSS",
+      },
+      {
+        name: "Gary Giam",
+        title: "Vice President",
+        bio: "Supports strategic planning and programme execution to translate institutional priorities into sustained action.",
+        expertise: ["Strategic Planning", "Programme Execution", "Institutional Operations"],
+        imageSrc: "/images/leadership/gary-giam.webp",
+        imageAlt: "Portrait of Gary Giam, Vice President of HMIOSS",
+      },
+      {
+        name: "Dato’ Henry Lee",
+        title: "Vice President",
+        bio: "Supports executive stewardship and institutional strategy with a focus on disciplined governance execution.",
         expertise: [
           "Institutional Strategy",
           "Strategic Planning",
           "Governance Stewardship",
         ],
-        imageSrc: createPortraitImage(
-          "formal portrait of a distinguished malaysian deputy president in a navy business suit, authoritative editorial lighting, premium institutional photography",
-        ),
-        imageAlt: "Portrait of Datuk Henry Lee, Deputy President of HMIOSS",
-      },
-      {
-        name: "Gary Giam",
-        title: "Deputy President",
-        bio: "Supports executive coordination, strategic planning, and programme execution to translate HMIOSS priorities into sustained institutional action.",
-        expertise: ["Strategic Planning", "Programme Execution", "Institutional Operations"],
-        imageSrc: createPortraitImage(
-          "formal portrait of a malaysian deputy president in a navy business suit, professional editorial lighting, credible institutional photography",
-        ),
-        imageAlt: "Portrait of Gary Giam, Deputy President of HMIOSS",
+        imageSrc: "/images/leadership/dato-henry-lee.webp",
+        imageAlt: "Portrait of Dato’ Henry Lee, Vice President of HMIOSS",
       },
     ],
   },
   {
     key: "secretaryGeneral",
     eyebrow: "Tier 3",
-    title: "Secretary-General",
-    description: "Governance administration and institutional coordination for the leadership council.",
+    title: "Secretary General and Treasurer",
+    description: "Core governance administration and financial stewardship for the leadership council.",
     members: [
       {
         name: "Prof. Dr. Vincent Wee Eng Kim",
-        title: "Secretary-General",
-        bio: "Oversees governance administration, institutional coordination, and disciplined execution across leadership priorities and official correspondence.",
+        title: "Secretary General",
+        bio: "Oversees governance administration, institutional coordination, and disciplined execution across leadership priorities.",
         expertise: ["Governance Administration", "Institutional Coordination", "Strategic Execution"],
-        imageSrc: createPortraitImage(
-          "formal portrait of an asian secretary-general in a suit, scholarly and credible, premium institutional editorial photography, neutral background",
-        ),
-        imageAlt: "Portrait of Prof. Dr. Vincent Wee Eng Kim, Secretary-General of HMIOSS",
+        imageSrc: "/images/leadership/prof-vincent-wee-eng-kim.webp",
+        imageAlt: "Portrait of Prof. Dr. Vincent Wee Eng Kim, Secretary General of HMIOSS",
+      },
+      {
+        name: "James Hwang",
+        title: "Treasurer",
+        bio: "Leads treasury governance and financial discipline to support sustainable institutional operations.",
+        expertise: ["Financial Oversight", "Treasury Governance", "Institutional Stewardship"],
+        imageSrc: "/images/leadership/james-hwang.webp",
+        imageAlt: "Portrait of James Hwang, Treasurer of HMIOSS",
       },
     ],
   },
   {
     key: "directors",
-    eyebrow: "Tier 3",
+    eyebrow: "Tier 4",
     title: "Directors",
-    description: "Functional leaders responsible for programmes, strategy, research, and partnerships.",
+    description: "Functional leaders responsible for programmes, partnerships, and education advancement.",
     members: [
       {
-        name: "Mee See Chooi",
-        title: "Director of Research & Publications",
-        bio: "Guides research themes and publication priorities that strengthen public understanding, institutional dialogue, and knowledge development.",
-        expertise: [
-          "Research Leadership",
-          "Publications",
-          "Knowledge Development",
-        ],
-        imageSrc: createPortraitImage(
-          "formal portrait of an asian research director in professional attire, refined institutional editorial style, soft studio light",
-        ),
-        imageAlt: "Portrait of Mee See Chooi, Director of Research and Publications",
-      },
-      {
         name: "Datin Sri Shanice Ng",
-        title: "Director of External Affairs & Partnerships",
-        bio: "Leads partner engagement and external relations that expand HMIOSS visibility, trust, and collaboration across strategic communities.",
+        title: "Director",
+        bio: "Leads external engagement and strategic collaboration to strengthen institutional partnerships and trust.",
         expertise: [
           "External Affairs",
           "Partnership Development",
           "Stakeholder Engagement",
         ],
-        imageSrc: createPortraitImage(
-          "formal portrait of an asian external affairs director in elegant business attire, premium editorial photography, confident professional pose",
-        ),
-        imageAlt:
-          "Portrait of Datin Sri Shanice Ng, Director of External Affairs and Partnerships",
+        imageSrc: "/images/leadership/datin-sri-shanice-ng.webp",
+        imageAlt: "Portrait of Datin Sri Shanice Ng, Director of HMIOSS",
+      },
+      {
+        name: "Apple Teo Siew Chyi",
+        title: "Director",
+        bio: "Supports institutional programme leadership and operations to improve delivery outcomes and engagement quality.",
+        expertise: [
+          "Programme Leadership",
+          "Operational Delivery",
+          "Community Engagement",
+        ],
+        imageSrc: "/images/leadership/apple-teo-siew-chyi.webp",
+        imageAlt: "Portrait of Apple Teo Siew Chyi, Director of HMIOSS",
+      },
+      {
+        name: "Krishnaveni Selvaraju",
+        title: "Director of Education Recruitment",
+        bio: "Leads education recruitment strategy to expand institutional talent pathways and programme participation.",
+        expertise: [
+          "Education Recruitment",
+          "Talent Pathways",
+          "Stakeholder Development",
+        ],
+        imageSrc: "/images/leadership/krishnaveni-selvaraju.webp",
+        imageAlt: "Portrait of Krishnaveni Selvaraju, Director of Education Recruitment of HMIOSS",
+      },
+      {
+        name: "Chooi Mee See",
+        title: "Director",
+        bio: "Supports institutional initiatives through director-level coordination, planning, and cross-functional collaboration.",
+        expertise: [
+          "Institutional Coordination",
+          "Strategic Planning",
+          "Cross-Functional Delivery",
+        ],
+        imageSrc: "/images/leadership/chooi-mee-see.webp",
+        imageAlt: "Portrait of Chooi Mee See, Director of HMIOSS",
       },
     ],
   },
