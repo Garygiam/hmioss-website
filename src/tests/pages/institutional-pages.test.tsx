@@ -12,6 +12,18 @@ import LeadershipPage from "@/pages/[locale]/leadership";
 import MissionVisionPage from "@/pages/[locale]/mission-vision";
 
 const pageSeoSpy = vi.fn();
+const approvedLeadershipPackage = [
+  { name: "Young Shang Yi", title: "Chairman" },
+  { name: "Dato’ Sri Charles Hwang", title: "Deputy Chairman" },
+  { name: "Gary Giam", title: "Vice President" },
+  { name: "Dato’ Henry Lee", title: "Vice President" },
+  { name: "Prof. Dr. Vincent Wee Eng Kim", title: "Secretary General" },
+  { name: "James Hwang", title: "Treasurer" },
+  { name: "Datin Sri Shanice Ng", title: "Director" },
+  { name: "Apple Teo Siew Chyi", title: "Director" },
+  { name: "Krishnaveni Selvaraju", title: "Director of Education Recruitment" },
+  { name: "Chooi Mee See", title: "Director" },
+] as const;
 
 vi.mock("next/image", () => ({
   default: ({ alt, src, ...props }: Record<string, unknown>) => {
@@ -118,19 +130,35 @@ describe("institutional content pages", () => {
     ).toBeInTheDocument();
   });
 
-  it("renders leadership profiles with bios, portraits, and expertise tags", () => {
+  it("renders the approved leadership package names, titles, and order", () => {
     render(<LeadershipPage locale="en" />);
 
-    const president = leadershipGroups[0].members[0];
+    for (const member of approvedLeadershipPackage) {
+      expect(screen.getByText(member.name)).toBeInTheDocument();
+      expect(screen.getAllByText(member.title).length).toBeGreaterThan(0);
+    }
 
-    expect(screen.getByText(president.name)).toBeInTheDocument();
-    expect(screen.getAllByText(president.title).length).toBeGreaterThan(0);
-    expect(screen.getByText(president.bio)).toBeInTheDocument();
-    expect(screen.getByAltText(president.imageAlt)).toBeInTheDocument();
+    for (let index = 0; index < approvedLeadershipPackage.length - 1; index += 1) {
+      const currentMember = screen.getByText(approvedLeadershipPackage[index].name);
+      const nextMember = screen.getByText(approvedLeadershipPackage[index + 1].name);
 
-    for (const item of president.expertise) {
+      expect(
+        currentMember.compareDocumentPosition(nextMember) & Node.DOCUMENT_POSITION_FOLLOWING,
+      ).toBeTruthy();
+    }
+
+    for (const item of leadershipGroups[0].members[0].expertise) {
       expect(screen.getByText(item)).toBeInTheDocument();
     }
+  });
+
+  it("renders James Hwang with the approved static production portrait", () => {
+    render(<LeadershipPage locale="en" />);
+
+    expect(screen.getByAltText("Portrait of James Hwang, Treasurer of HMIOSS")).toHaveAttribute(
+      "src",
+      expect.stringContaining("/images/leadership/james-hwang.webp"),
+    );
   });
 
   it("provides SEO metadata for the leadership page", () => {

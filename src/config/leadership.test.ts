@@ -2,61 +2,94 @@ import { describe, expect, it } from "vitest";
 
 import { leadershipGroups } from "@/config/leadership";
 
+const approvedLeadershipPackage = [
+  {
+    name: "Young Shang Yi",
+    title: "Chairman",
+    imageSrc: "/images/leadership/young-shang-yi.webp",
+  },
+  {
+    name: "Dato’ Sri Charles Hwang",
+    title: "Deputy Chairman",
+    imageSrc: "/images/leadership/dato-sri-charles-hwang.webp",
+  },
+  {
+    name: "Gary Giam",
+    title: "Vice President",
+    imageSrc: "/images/leadership/gary-giam.webp",
+  },
+  {
+    name: "Dato’ Henry Lee",
+    title: "Vice President",
+    imageSrc: "/images/leadership/dato-henry-lee.webp",
+  },
+  {
+    name: "Prof. Dr. Vincent Wee Eng Kim",
+    title: "Secretary General",
+    imageSrc: "/images/leadership/prof-vincent-wee-eng-kim.webp",
+  },
+  {
+    name: "James Hwang",
+    title: "Treasurer",
+    imageSrc: "/images/leadership/james-hwang.webp",
+  },
+  {
+    name: "Datin Sri Shanice Ng",
+    title: "Director",
+    imageSrc: "/images/leadership/datin-sri-shanice-ng.webp",
+  },
+  {
+    name: "Apple Teo Siew Chyi",
+    title: "Director",
+    imageSrc: "/images/leadership/apple-teo-siew-chyi.webp",
+  },
+  {
+    name: "Krishnaveni Selvaraju",
+    title: "Director of Education Recruitment",
+    imageSrc: "/images/leadership/krishnaveni-selvaraju.webp",
+  },
+  {
+    name: "Chooi Mee See",
+    title: "Director",
+    imageSrc: "/images/leadership/chooi-mee-see.webp",
+  },
+] as const;
+
+const flattenedLeadershipMembers = leadershipGroups.flatMap((group) => group.members);
+
 describe("leadershipGroups", () => {
-  it("defines the approved three-tier leadership hierarchy", () => {
-    expect(leadershipGroups).toHaveLength(4);
+  it("locks the canonical 10-person leadership asset package in approved order", () => {
+    expect(flattenedLeadershipMembers).toHaveLength(approvedLeadershipPackage.length);
+    expect(
+      flattenedLeadershipMembers.map(({ name, title, imageSrc }) => ({
+        name,
+        title,
+        imageSrc,
+      })),
+    ).toEqual(approvedLeadershipPackage);
+  });
 
-    expect(leadershipGroups[0]).toMatchObject({
-      key: "president",
-      title: "President",
-      members: [{ name: "Young Shang Yi", title: "President / Founder" }],
-    });
-
-    expect(leadershipGroups[1]).toMatchObject({
-      key: "deputyPresidents",
-      title: "Deputy Presidents",
-      members: [
-        { name: "Datuk Henry Lee", title: "Deputy President" },
-        { name: "Gary Giam", title: "Deputy President" },
-      ],
-    });
-
-    expect(leadershipGroups[2]).toMatchObject({
-      key: "secretaryGeneral",
-      title: "Secretary-General",
-      members: [{ name: "Prof. Dr. Vincent Wee Eng Kim", title: "Secretary-General" }],
-    });
-
-    expect(leadershipGroups[3]).toMatchObject({
-      key: "directors",
-      title: "Directors",
-      members: [
-        { name: "Mee See Chooi" },
-        { name: "Datin Sri Shanice Ng" },
-      ],
+  it("uses the approved production portrait for Dato’ Sri Charles Hwang", () => {
+    expect(leadershipGroups[1].members[0]).toMatchObject({
+      name: "Dato’ Sri Charles Hwang",
+      title: "Deputy Chairman",
+      imageSrc: "/images/leadership/dato-sri-charles-hwang.webp",
     });
   });
 
-  it("includes richer profile data for leadership credibility surfaces", () => {
-    expect(leadershipGroups[0].members[0]).toMatchObject({
-      name: "Young Shang Yi",
-      title: "President / Founder",
+  it("uses the approved production portrait for James Hwang", () => {
+    expect(flattenedLeadershipMembers[5]).toMatchObject({
+      name: "James Hwang",
+      title: "Treasurer",
+      imageSrc: "/images/leadership/james-hwang.webp",
     });
-    expect(leadershipGroups[0].members[0].bio.length).toBeGreaterThan(20);
-    expect(leadershipGroups[0].members[0].expertise.length).toBeGreaterThan(0);
-    expect(leadershipGroups[0].members[0].imageSrc).toContain(
-      "https://coresg-normal.trae.ai/api/ide/v1/text_to_image",
-    );
-    expect(leadershipGroups[0].members[0].imageAlt).toContain("Young Shang Yi");
   });
 
-  it("avoids dual-role confusion by excluding deputies and secretary-general from directors", () => {
-    const directors = leadershipGroups.find((group) => group.key === "directors");
-    expect(directors).toBeDefined();
-
-    const directorNames = (directors?.members ?? []).map((member) => member.name);
-    expect(directorNames).not.toContain("Datuk Henry Lee");
-    expect(directorNames).not.toContain("Gary Giam");
-    expect(directorNames).not.toContain("Prof. Dr. Vincent Wee Eng Kim");
+  it("retains supporting profile content for every approved member", () => {
+    for (const member of flattenedLeadershipMembers) {
+      expect(member.bio.length).toBeGreaterThan(20);
+      expect(member.expertise.length).toBeGreaterThan(0);
+      expect(member.imageAlt).toContain(member.name);
+    }
   });
 });
