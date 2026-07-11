@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { render, screen } from "@testing-library/react";
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 
 import { hmiossBrandRegistry } from "@/config/brand-registry";
 import { buildLocalizedPath } from "@/lib/locale";
@@ -85,6 +85,11 @@ const localizedExpectations = [
 ] as const;
 
 describe("NotFoundPage", () => {
+  afterEach(() => {
+    mockAsPath = "/en/unknown-page";
+    window.history.replaceState({}, "", "/");
+  });
+
   it("exports inferSupportedLocale and resolves supported locales with an English fallback", () => {
     expect(NotFoundModule).toHaveProperty("inferSupportedLocale");
 
@@ -105,18 +110,19 @@ describe("NotFoundPage", () => {
   });
 
   it.each(localizedExpectations)(
-    "renders the approved brand wordmark and localized recovery path for $asPath",
-    ({ asPath, locale, heading, explanation, returnHomeLabel }) => {
-      mockAsPath = asPath;
+    "renders the approved brand wordmark and localized recovery path for runtime path $asPath",
+    async ({ asPath, locale, heading, explanation, returnHomeLabel }) => {
+      mockAsPath = "/404";
+      window.history.replaceState({}, "", asPath);
 
       render(<NotFoundModule.default />);
 
-      const logo = screen.getByRole("img", {
+      const logo = await screen.findByRole("img", {
         name: hmiossBrandRegistry.assets.wordmark.light.alt,
       });
-      const returnHomeLink = screen.getByRole("link", { name: returnHomeLabel });
+      const returnHomeLink = await screen.findByRole("link", { name: returnHomeLabel });
 
-      expect(screen.getByRole("heading", { name: heading })).toBeInTheDocument();
+      expect(await screen.findByRole("heading", { name: heading })).toBeInTheDocument();
       expect(screen.getByText(explanation)).toBeInTheDocument();
       expect(logo).toHaveAttribute("src", hmiossBrandRegistry.assets.wordmark.light.normalized);
       expect(returnHomeLink).toHaveAttribute("href", buildLocalizedPath(locale, "/"));

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useSyncExternalStore } from "react";
 
 import { BrandLogo } from "@/components/brand/BrandLogo";
 import { hmiossBrandRegistry } from "@/config/brand-registry";
@@ -53,9 +54,26 @@ export function inferSupportedLocale(asPath: string | null | undefined): Support
   return "en";
 }
 
+function subscribeToPathname(onStoreChange: () => void) {
+  if (typeof window === "undefined") {
+    return () => {};
+  }
+
+  window.addEventListener("popstate", onStoreChange);
+
+  return () => {
+    window.removeEventListener("popstate", onStoreChange);
+  };
+}
+
 const NotFoundPage: NextPageWithLayout = () => {
   const { asPath } = useRouter();
-  const locale = inferSupportedLocale(asPath);
+  const locale = useSyncExternalStore(
+    subscribeToPathname,
+    () => inferSupportedLocale(window.location.pathname),
+    () => inferSupportedLocale(asPath),
+  );
+
   const copy = notFoundCopy[locale];
 
   return (
