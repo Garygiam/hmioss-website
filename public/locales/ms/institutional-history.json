@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "eyebrow": "Institutional History",
+    "title": "Institutional History",
+    "subtitle": "Mendokumentasikan pertumbuhan HMIOSS melalui kerjasama, kepimpinan, pendidikan, penyelidikan dan penglibatan komuniti."
+  },
+  "featured": {
+    "eyebrow": "Acara Pilihan",
+    "title": "Acara Institusi Pilihan",
+    "partnerLabel": "Rakan",
+    "dateLabel": "Tarikh",
+    "locationLabel": "Lokasi",
+    "viewEvent": "Lihat Rekod Acara"
+  },
+  "timeline": {
+    "title": "Garis Masa",
+    "description": "Arkib berasaskan tahun bagi pencapaian institusi yang diterbitkan.",
+    "viewYear": "Terokai Tahun"
+  },
+  "event": {
+    "summaryTitle": "Ringkasan Acara",
+    "outcomesTitle": "Hasil Utama",
+    "partnerTitle": "Rakan",
+    "programmeTitle": "Program",
+    "recognitionTitle": "Pengiktirafan",
+    "leadershipTitle": "Kepimpinan",
+    "galleryTitle": "Galeri Terkurasi",
+    "relatedEventsTitle": "Acara Berkaitan",
+    "backToHistory": "Kembali ke Institutional History",
+    "previousEvent": "Acara Sebelumnya",
+    "nextEvent": "Acara Seterusnya"
+  },
+  "labels": {
+    "eventType": "Jenis Acara",
+    "date": "Tarikh",
+    "location": "Lokasi",
+    "partner": "Rakan",
+    "programme": "Program"
+  }
+}

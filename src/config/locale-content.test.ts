@@ -38,6 +38,12 @@ const require = createRequire(import.meta.url);
 const nextI18NextConfig = require("../../next-i18next.config.js") as {
   ns: string[];
 };
+const institutionalHistoryBundlePaths = {
+  en: "../../public/locales/en/institutional-history.json",
+  ms: "../../public/locales/ms/institutional-history.json",
+  "zh-CN": "../../public/locales/zh-CN/institutional-history.json",
+  "zh-TW": "../../public/locales/zh-TW/institutional-history.json",
+} as const;
 
 const localeBundles = {
   en: {
@@ -93,6 +99,10 @@ describe("phase 1 locale messaging", () => {
 
   it("registers the recognition namespace for the page router", () => {
     expect(nextI18NextConfig.ns).toContain("recognition");
+  });
+
+  it("registers the institutional-history namespace for the page router", () => {
+    expect(nextI18NextConfig.ns).toContain("institutional-history");
   });
 
   it("keeps the impact content counts stable for locale alignment", () => {
@@ -155,6 +165,38 @@ describe("phase 1 locale messaging", () => {
       expect(bundle.recognition.labels.date).toEqual(expect.any(String));
       expect(bundle.recognition.labels.country).toEqual(expect.any(String));
       expect(bundle.recognition.labels.documentType).toEqual(expect.any(String));
+    },
+  );
+
+  it.each(Object.entries(localeBundles))(
+    "%s includes page metadata for the institutional history route",
+    (locale, bundle) => {
+      const commonNav = bundle.common.nav as Record<string, unknown>;
+      const pageMetadata = bundle.pages as Record<
+        string,
+        { title?: unknown; subtitle?: unknown }
+      >;
+      const institutionalHistoryBundle = require(
+        institutionalHistoryBundlePaths[
+          locale as keyof typeof institutionalHistoryBundlePaths
+        ],
+      ) as {
+        hero?: { title?: unknown };
+        timeline?: { title?: unknown };
+        event?: { outcomesTitle?: unknown; galleryTitle?: unknown };
+      };
+
+      expect(commonNav.institutionalHistory).toEqual(expect.any(String));
+      expect(pageMetadata.institutionalHistory?.title).toEqual(expect.any(String));
+      expect(pageMetadata.institutionalHistory?.subtitle).toEqual(expect.any(String));
+      expect(institutionalHistoryBundle.hero?.title).toEqual(expect.any(String));
+      expect(institutionalHistoryBundle.timeline?.title).toEqual(expect.any(String));
+      expect(institutionalHistoryBundle.event?.outcomesTitle).toEqual(
+        expect.any(String),
+      );
+      expect(institutionalHistoryBundle.event?.galleryTitle).toEqual(
+        expect.any(String),
+      );
     },
   );
 

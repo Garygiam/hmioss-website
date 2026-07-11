@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "eyebrow": "Institutional History",
+    "title": "Institutional History",
+    "subtitle": "透過夥伴合作、領導力、教育、研究與社群參與，記錄 HMIOSS 的發展歷程。"
+  },
+  "featured": {
+    "eyebrow": "重點事件",
+    "title": "重點機構事件",
+    "partnerLabel": "合作夥伴",
+    "dateLabel": "日期",
+    "locationLabel": "地點",
+    "viewEvent": "查看事件紀錄"
+  },
+  "timeline": {
+    "title": "時間線",
+    "description": "按年份整理的已發布機構里程碑檔案。",
+    "viewYear": "查看年份"
+  },
+  "event": {
+    "summaryTitle": "事件概述",
+    "outcomesTitle": "關鍵成果",
+    "partnerTitle": "合作夥伴",
+    "programmeTitle": "項目",
+    "recognitionTitle": "榮譽",
+    "leadershipTitle": "領導層",
+    "galleryTitle": "精選圖庫",
+    "relatedEventsTitle": "相關事件",
+    "backToHistory": "返回 Institutional History",
+    "previousEvent": "上一事件",
+    "nextEvent": "下一事件"
+  },
+  "labels": {
+    "eventType": "事件類型",
+    "date": "日期",
+    "location": "地點",
+    "partner": "合作夥伴",
+    "programme": "項目"
+  }
+}

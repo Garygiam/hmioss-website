@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "eyebrow": "Institutional History",
+    "title": "Institutional History",
+    "subtitle": "Documenting the growth of HMIOSS through partnerships, leadership, education, research and community engagement."
+  },
+  "featured": {
+    "eyebrow": "Featured Event",
+    "title": "Featured Institutional Event",
+    "partnerLabel": "Partner",
+    "dateLabel": "Date",
+    "locationLabel": "Location",
+    "viewEvent": "View Event Record"
+  },
+  "timeline": {
+    "title": "Timeline",
+    "description": "A year-grouped archive of published institutional milestones.",
+    "viewYear": "Explore Year"
+  },
+  "event": {
+    "summaryTitle": "Event Summary",
+    "outcomesTitle": "Key Outcomes",
+    "partnerTitle": "Partner",
+    "programmeTitle": "Programme",
+    "recognitionTitle": "Recognition",
+    "leadershipTitle": "Leadership",
+    "galleryTitle": "Curated Gallery",
+    "relatedEventsTitle": "Related Events",
+    "backToHistory": "Back to Institutional History",
+    "previousEvent": "Previous Event",
+    "nextEvent": "Next Event"
+  },
+  "labels": {
+    "eventType": "Event Type",
+    "date": "Date",
+    "location": "Location",
+    "partner": "Partner",
+    "programme": "Programme"
+  }
+}

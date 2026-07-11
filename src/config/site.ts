@@ -41,6 +41,7 @@ export const siteConfig = {
     { key: "programmes", href: "/programmes" },
     { key: "partners", href: "/partners" },
     { key: "impact", href: "/impact" },
+    { key: "institutionalHistory", href: "/institutional-history" },
     { key: "news", href: "/news" },
     { key: "join", href: "/join" },
     { key: "contact", href: "/contact" },
