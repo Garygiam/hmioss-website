@@ -1,5 +1,6 @@
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
+import Script from "next/script";
 import { appWithTranslation } from "next-i18next";
 
 import nextI18NextConfig from "../../next-i18next.config.js";
@@ -17,6 +18,18 @@ function App({ Component, pageProps }: AppPropsWithLayout) {
 
   return (
     <div className={`${bodyFont.variable} ${headingFont.variable}`.trim()}>
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-9C9WT5DET0"
+        strategy="afterInteractive"
+      />
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-9C9WT5DET0');
+        `}
+      </Script>
       {getLayout(<Component {...pageProps} />)}
     </div>
   );

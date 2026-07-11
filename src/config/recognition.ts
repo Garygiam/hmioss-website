@@ -113,6 +113,20 @@ const institutionalCredentials: InstitutionalCredential[] = [
     v1Classification: "required",
   },
   {
+    credentialId: "LETTER-007",
+    key: "thayninga-institute-for-strategic-studies",
+    groupKey: "congratulatoryLetters",
+    credentialType: "congratulatory-letter",
+    displayName: "Thayninga Institute for Strategic Studies",
+    countryTerritory: "Myanmar",
+    previewSrc: `${congratulatoryLettersBasePath}/thayninga-institute-for-strategic-studies.jpeg`,
+    documentSrc: `${congratulatoryLettersBasePath}/thayninga-institute-for-strategic-studies.jpeg`,
+    imageAlt: "Congratulatory letter from Thayninga Institute for Strategic Studies",
+    status: "verified",
+    visibility: "public",
+    v1Classification: "required",
+  },
+  {
     credentialId: "LETTER-005",
     key: "tccoc-letter",
     groupKey: "congratulatoryLetters",
@@ -184,5 +198,12 @@ export const congratulatoryLetters: CongratulatoryLetter[] = [
     imageSrc: `${congratulatoryLettersBasePath}/holland-china-business-culture-education-association-2026-05-21.jpg`,
     imageAlt:
       "Congratulatory letter from Holland-China Business Culture & Education Association",
+  },
+  {
+    key: "thayninga-institute-for-strategic-studies",
+    organization: "Thayninga Institute for Strategic Studies",
+    date: "Pending confirmation",
+    imageSrc: `${congratulatoryLettersBasePath}/thayninga-institute-for-strategic-studies.jpeg`,
+    imageAlt: "Congratulatory letter from Thayninga Institute for Strategic Studies",
   },
 ];

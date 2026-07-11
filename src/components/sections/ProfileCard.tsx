@@ -19,10 +19,10 @@ export function ProfileCard({
 }: ProfileCardProps) {
   return (
     <article className="overflow-hidden rounded-3xl border border-[#E0E0E0] bg-[#F5F5F5]">
-      <div className="relative aspect-[4/3] border-b border-[#E0E0E0] bg-white">
+      <div className="relative aspect-[4/5] border-b border-[#E0E0E0] bg-white">
         <ResponsiveImage
           alt={imageAlt}
-          className="h-full w-full object-cover"
+          className="h-full w-full object-cover object-top"
           fill
           sizes="(min-width: 1280px) 22vw, (min-width: 768px) 45vw, 100vw"
           src={imageSrc}

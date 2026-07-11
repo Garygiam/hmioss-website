@@ -136,6 +136,17 @@ describe("news, join, and impact pages", () => {
     );
   });
 
+  it("uses a local navy fallback for the Opening Ceremony card instead of an external image", () => {
+    render(<NewsPage />);
+
+    expect(
+      screen.queryByAltText("Guests officiate the HMIOSS opening ceremony"),
+    ).not.toBeInTheDocument();
+    expect(
+      screen.getByLabelText("Opening Ceremony Marks HMIOSS Launch fallback"),
+    ).toBeInTheDocument();
+  });
+
   it("renders the localized membership journey and FAQ alongside the form", () => {
     render(<JoinPage />);
 
@@ -159,6 +170,13 @@ describe("news, join, and impact pages", () => {
         title: `${enPages.join.title} | HMIOSS`,
       }),
     );
+  });
+
+  it("keeps the join pathway headings balanced on narrow cards", () => {
+    render(<JoinPage />);
+
+    expect(screen.getByText("Onboarding & Orientation")).toHaveClass("text-balance");
+    expect(screen.getByText("Participate & Grow")).toHaveClass("text-balance");
   });
 
   it("renders the impact page with localized highlights, proof sections, and CTA links", async () => {

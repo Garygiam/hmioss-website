@@ -191,7 +191,16 @@ describe("institutional content pages", () => {
     expect(
       screen.getByText("Holland-China Business Culture & Education Association"),
     ).toBeInTheDocument();
+    expect(screen.getByText("Thayninga Institute for Strategic Studies")).toBeInTheDocument();
     expect(screen.queryByText("ROS Registration Certificate")).not.toBeInTheDocument();
     expect(screen.queryByText("Taiwan Chamber of Commerce in Orange County")).not.toBeInTheDocument();
+    expect(screen.queryByText("Unidentified congratulatory letter")).not.toBeInTheDocument();
+    expect(screen.queryByText(/WhatsApp Image/i)).not.toBeInTheDocument();
+
+    for (const link of screen.getAllByRole("link", {
+      name: enRecognition.groups.congratulatoryLetters.viewCredential,
+    })) {
+      expect(link).toHaveAttribute("target", "_blank");
+    }
   });
 });

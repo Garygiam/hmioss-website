@@ -36,13 +36,15 @@ export function ProcessTimeline({
       <ol className="grid gap-6 lg:grid-cols-2 xl:grid-cols-4">
         {items.map((item, index) => (
           <li
-            className="rounded-3xl border border-[#E0E0E0] bg-[#F5F5F5] p-8"
+            className="flex h-full flex-col rounded-3xl border border-[#E0E0E0] bg-[#F5F5F5] p-8"
             key={item.key}
           >
             <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#C41E3A]">
               {String(index + 1).padStart(2, "0")}
             </p>
-            <p className="mt-5 font-heading text-2xl text-[#1A2A3A]">{item.title}</p>
+            <p className="mt-5 max-w-[13ch] text-balance font-heading text-2xl text-[#1A2A3A]">
+              {item.title}
+            </p>
             <p className="mt-4 text-sm leading-7 text-[#4A4A4A]">{item.description}</p>
           </li>
         ))}

@@ -44,13 +44,10 @@ export const siteConfig = {
 } as const;
 
 export const placeholderImages = {
-  hero:
-    "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=modern%20malaysian%20institutional%20campus%20with%20strategic%20planning%20room%2C%20elegant%20civic%20architecture%2C%20professional%20documentary%20photography%2C%20warm%20natural%20light%2C%20premium%20editorial%20website%20hero&image_size=landscape_16_9",
-  story: "/images/institutional-vision.svg",
-  graduation:
-    "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=graduation%20ceremony%20at%20a%20modern%20university%20in%20malaysia%2C%20formal%20robes%2C%20institutional%20documentary%20photography%2C%20clean%20website%20visual&image_size=landscape_4_3",
-  defence:
-    "https://coresg-normal.trae.ai/api/ide/v1/text_to_image?prompt=malaysian%20reserve%20officer%20leadership%20training%20camp%2C%20professional%20documentary%20photography%2C%20disciplined%20formation%2C%20credible%20institutional%20visual&image_size=landscape_4_3",
+  hero: undefined,
+  story: undefined,
+  graduation: undefined,
+  defence: undefined,
 };
 
 export function isLocale(value: string): value is Locale {

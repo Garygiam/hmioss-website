@@ -101,6 +101,17 @@ export default function NewsPage({ locale }: NewsPageProps) {
                       </div>
                     ))}
                   </div>
+                ) : item.fallbackPanelLabel ? (
+                  <div className="mb-6">
+                    <div
+                      aria-label={`${item.title} fallback`}
+                      className="flex aspect-[16/10] items-end overflow-hidden rounded-2xl bg-[#1A2A3A] p-6"
+                    >
+                      <p className="text-lg font-heading tracking-[0.18em] text-white">
+                        {item.fallbackPanelLabel}
+                      </p>
+                    </div>
+                  </div>
                 ) : null}
                 <p className="text-xs font-semibold uppercase tracking-[0.3em] text-[#C41E3A]">
                   {item.category}

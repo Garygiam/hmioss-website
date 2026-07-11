@@ -113,4 +113,10 @@ describe("LocalizedHomePage", () => {
       }),
     ).toHaveAttribute("href", "/en/mission-vision?lang=en");
   });
+
+  it("uses a solid institutional hero and vision surface instead of placeholder imagery", () => {
+    render(<HomePage locale="en" />);
+
+    expect(screen.queryByAltText("International Hung Men Institute of Strategic Studies")).not.toBeInTheDocument();
+  });
 });

@@ -98,6 +98,21 @@ describe("institutional section components", () => {
     expect(screen.getByAltText("Leadership planning session")).toBeInTheDocument();
   });
 
+  it("supports a plain institutional panel when no approved image is available", () => {
+    render(
+      <VisionStatement
+        body="Education and service strengthen institutional credibility."
+        ctaHref="/mission-vision"
+        ctaLabel="Learn More About Our Mission"
+        eyebrow="Institutional Vision"
+        quote="Education builds capability. Leadership builds nations."
+        title="Developing leaders with capability and service orientation"
+      />,
+    );
+
+    expect(screen.queryByRole("img")).not.toBeInTheDocument();
+  });
+
   it("renders process steps in order", () => {
     render(
       <ProcessTimeline
@@ -120,6 +135,22 @@ describe("institutional section components", () => {
     expect(screen.getByText("02")).toBeInTheDocument();
     expect(screen.getByText("Explore The Pathway")).toBeInTheDocument();
     expect(screen.getByText("Apply Skills In Practice")).toBeInTheDocument();
+  });
+
+  it("balances long process titles inside fixed cards", () => {
+    render(
+      <ProcessTimeline
+        items={[
+          {
+            key: "orientation",
+            title: "Onboarding & Orientation",
+            description: "Approved applicants receive orientation into the institute.",
+          },
+        ]}
+      />,
+    );
+
+    expect(screen.getByText("Onboarding & Orientation")).toHaveClass("text-balance");
   });
 
   it("renders filter chips and reports the next selected category", () => {
@@ -169,6 +200,6 @@ describe("institutional section components", () => {
       ),
     ).toBeInTheDocument();
     expect(screen.getByText("Institution Building")).toBeInTheDocument();
-    expect(screen.getByAltText("Portrait of Young Shang Yi")).toBeInTheDocument();
+    expect(screen.getByAltText("Portrait of Young Shang Yi")).toHaveClass("object-top");
   });
 });

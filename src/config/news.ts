@@ -11,6 +11,7 @@ export type NewsItem = {
   href?: string;
   linkLabel?: string;
   images?: NewsImage[];
+  fallbackPanelLabel?: string;
 };
 
 export const newsItems: NewsItem[] = [
@@ -21,13 +22,7 @@ export const newsItems: NewsItem[] = [
       "HMIOSS officially announced its establishment in Malaysia, with its founding chairman highlighting the institute's mission to strengthen members through continuous learning, professional development, and meaningful national contribution. The institute will focus on academic exchange, talent training, economic cooperation, technology development, medical research, and strategic public dialogue.",
     href: "https://www.sinchew.com.my/news/20260526/nation/7536965",
     linkLabel: "Read coverage",
-    images: [
-      {
-        src: "https://cdn.sinchew.com.my/wp-content/uploads/2026/05/e69687e5918aefbc9ae6b4aae997a8e7ad96e795a5e7a094e7a9b6e999a2.jpg",
-        alt: "Guests officiate the HMIOSS opening ceremony",
-        variant: "primary",
-      },
-    ],
+    fallbackPanelLabel: "HMIOSS",
   },
   {
     category: "Announcements",

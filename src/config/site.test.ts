@@ -10,10 +10,11 @@ const nextSitemapConfig = require("../../next-sitemap.config.js") as {
 };
 
 describe("site imagery", () => {
-  it("uses a deployment-safe shared story image", () => {
-    expect(placeholderImages.story).toMatch(/^\/.+/);
-    expect(placeholderImages.story).not.toContain("coresg-normal.trae.ai");
-    expect(placeholderImages.story).not.toContain("text_to_image");
+  it("removes public placeholder and generated imagery from production surfaces", () => {
+    expect(placeholderImages.hero).toBeUndefined();
+    expect(placeholderImages.story).toBeUndefined();
+    expect(placeholderImages.graduation).toBeUndefined();
+    expect(placeholderImages.defence).toBeUndefined();
   });
 
   it("uses the approved production domain and public contact details while keeping socials disabled", () => {

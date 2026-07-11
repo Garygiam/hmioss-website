@@ -8,8 +8,8 @@ type VisionStatementProps = {
   body: string;
   ctaHref: string;
   ctaLabel: string;
-  imageSrc: string;
-  imageAlt: string;
+  imageSrc?: string;
+  imageAlt?: string;
 };
 
 export function VisionStatement({
@@ -44,16 +44,23 @@ export function VisionStatement({
         </div>
       </div>
 
-      <div className="relative overflow-hidden rounded-[1.75rem] border border-[#D4AF37]/30 bg-white">
-        <ResponsiveImage
-          alt={imageAlt}
-          className="h-full w-full object-cover"
-          height={720}
-          sizes="(min-width: 1024px) 40vw, 100vw"
-          src={imageSrc}
-          width={960}
+      {imageSrc ? (
+        <div className="relative overflow-hidden rounded-[1.75rem] border border-[#D4AF37]/30 bg-white">
+          <ResponsiveImage
+            alt={imageAlt ?? ""}
+            className="h-full w-full object-cover"
+            height={720}
+            sizes="(min-width: 1024px) 40vw, 100vw"
+            src={imageSrc}
+            width={960}
+          />
+        </div>
+      ) : (
+        <div
+          aria-hidden="true"
+          className="min-h-[280px] rounded-[1.75rem] border border-[#D4AF37]/20 bg-[#1A2A3A]"
         />
-      </div>
+      )}
     </div>
   );
 }
