@@ -7,6 +7,8 @@ import Document, {
   type DocumentInitialProps,
 } from "next/document";
 
+import { getCompatibilityBrandAssetPath, hmiossBrandRegistry } from "@/config/brand-registry";
+
 type LocaleHtmlLang = "en" | "ms" | "zh-Hant" | "zh-Hans";
 
 function resolveHtmlLang(pathname: string): LocaleHtmlLang {
@@ -41,9 +43,31 @@ export default class HmiossDocument extends Document<{ htmlLang: LocaleHtmlLang 
   }
 
   render() {
+    const { favicons, manifest } = hmiossBrandRegistry.assets;
+
     return (
       <Html lang={this.props.htmlLang}>
-        <Head />
+        <Head>
+          <link href={getCompatibilityBrandAssetPath(favicons.ico)} rel="icon" sizes="any" />
+          <link
+            href={getCompatibilityBrandAssetPath(favicons.png32)}
+            rel="icon"
+            sizes={favicons.png32.sizes}
+            type={favicons.png32.type}
+          />
+          <link
+            href={getCompatibilityBrandAssetPath(favicons.png16)}
+            rel="icon"
+            sizes={favicons.png16.sizes}
+            type={favicons.png16.type}
+          />
+          <link
+            href={getCompatibilityBrandAssetPath(favicons.appleTouchIcon)}
+            rel="apple-touch-icon"
+            sizes={favicons.appleTouchIcon.sizes}
+          />
+          <link href={getCompatibilityBrandAssetPath(manifest)} rel="manifest" />
+        </Head>
         <body className="antialiased">
           <Main />
           <NextScript />

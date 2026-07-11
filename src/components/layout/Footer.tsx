@@ -2,7 +2,9 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { useTranslation } from "next-i18next";
 
+import { BrandLogo } from "@/components/brand/BrandLogo";
 import { Container } from "@/components/ui/Container";
+import { hmiossBrandRegistry } from "@/config/brand-registry";
 import { supportedLocales } from "@/config/i18n";
 import type { Locale } from "@/config/i18n";
 import { siteConfig } from "@/config/site";
@@ -17,12 +19,19 @@ export function Footer() {
     typeof localeParam === "string" && supportedLocales.includes(localeParam as Locale)
       ? (localeParam as Locale)
       : "en";
+  const footerWordmark = hmiossBrandRegistry.assets.wordmark.light;
 
   return (
     <footer className="border-t border-[#E0E0E0] bg-[#F5F5F5]">
       <Container className="grid gap-10 py-14 lg:grid-cols-[1.5fr_1fr_1fr]">
         <div>
-          <p className="font-heading text-2xl text-[#1A2A3A]">{siteConfig.shortName}</p>
+          <Link
+            aria-label={hmiossBrandRegistry.assets.metadata.homeLinkLabel}
+            className="inline-flex items-center focus-visible:ring-2 focus-visible:ring-[#D4AF37] focus-visible:ring-offset-2 focus-visible:outline-none"
+            href={buildLocalizedPath(locale, "/")}
+          >
+            <BrandLogo asset={footerWordmark} className="h-auto w-[180px]" />
+          </Link>
           <p className="mt-3 text-sm leading-7 text-[#4A4A4A]">{siteConfig.address}</p>
           <p className="mt-3 text-sm text-[#4A4A4A]">
             {siteConfig.phone} · {siteConfig.email}

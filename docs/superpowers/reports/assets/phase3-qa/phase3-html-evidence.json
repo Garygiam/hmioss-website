@@ -1,0 +1,253 @@
+{
+  "en": {
+    "homeLinkCount": 2,
+    "headerHomeLinks": [
+      {
+        "href": "/en?lang=en",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "footerHomeLinks": [
+      {
+        "href": "/en?lang=en",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "iconLinks": [
+      {
+        "rel": "icon",
+        "href": "/favicon.ico",
+        "sizes": "any",
+        "type": null
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": null
+      }
+    ],
+    "manifestLinks": [
+      {
+        "rel": "manifest",
+        "href": "/site.webmanifest",
+        "sizes": null,
+        "type": null
+      }
+    ]
+  },
+  "ms": {
+    "homeLinkCount": 2,
+    "headerHomeLinks": [
+      {
+        "href": "/ms?lang=ms",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "footerHomeLinks": [
+      {
+        "href": "/ms?lang=ms",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "iconLinks": [
+      {
+        "rel": "icon",
+        "href": "/favicon.ico",
+        "sizes": "any",
+        "type": null
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": null
+      }
+    ],
+    "manifestLinks": [
+      {
+        "rel": "manifest",
+        "href": "/site.webmanifest",
+        "sizes": null,
+        "type": null
+      }
+    ]
+  },
+  "zh-CN": {
+    "homeLinkCount": 2,
+    "headerHomeLinks": [
+      {
+        "href": "/zh-CN?lang=zh-CN",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "footerHomeLinks": [
+      {
+        "href": "/zh-CN?lang=zh-CN",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "iconLinks": [
+      {
+        "rel": "icon",
+        "href": "/favicon.ico",
+        "sizes": "any",
+        "type": null
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": null
+      }
+    ],
+    "manifestLinks": [
+      {
+        "rel": "manifest",
+        "href": "/site.webmanifest",
+        "sizes": null,
+        "type": null
+      }
+    ]
+  },
+  "zh-TW": {
+    "homeLinkCount": 2,
+    "headerHomeLinks": [
+      {
+        "href": "/zh-TW?lang=zh-TW",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "footerHomeLinks": [
+      {
+        "href": "/zh-TW?lang=zh-TW",
+        "imgAlt": "HMIOSS wordmark",
+        "imgSrc": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75",
+        "imgSrcSet": "/_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=828&q=75 1x, /_next/image?url=%2Fbrand%2Fruntime%2Fhmioss%2Fv1.0.0%2Flogo%2Fwordmark-light.png&w=1920&q=75 2x"
+      }
+    ],
+    "iconLinks": [
+      {
+        "rel": "icon",
+        "href": "/favicon.ico",
+        "sizes": "any",
+        "type": null
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": null
+      }
+    ],
+    "manifestLinks": [
+      {
+        "rel": "manifest",
+        "href": "/site.webmanifest",
+        "sizes": null,
+        "type": null
+      }
+    ]
+  },
+  "404": {
+    "homeLinkCount": 0,
+    "headerHomeLinks": [],
+    "footerHomeLinks": [],
+    "iconLinks": [
+      {
+        "rel": "icon",
+        "href": "/favicon.ico",
+        "sizes": "any",
+        "type": null
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-32x32.png",
+        "sizes": "32x32",
+        "type": "image/png"
+      },
+      {
+        "rel": "icon",
+        "href": "/favicon-16x16.png",
+        "sizes": "16x16",
+        "type": "image/png"
+      },
+      {
+        "rel": "apple-touch-icon",
+        "href": "/apple-touch-icon.png",
+        "sizes": "180x180",
+        "type": null
+      }
+    ],
+    "manifestLinks": [
+      {
+        "rel": "manifest",
+        "href": "/site.webmanifest",
+        "sizes": null,
+        "type": null
+      }
+    ]
+  }
+}

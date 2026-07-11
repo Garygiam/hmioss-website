@@ -1,9 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import { fireEvent, render, screen, within } from "@testing-library/react";
 import { beforeEach, describe, expect, it, vi } from "vitest";
 
 import enCommon from "../../../public/locales/en/common.json";
 
 import { Header } from "@/components/layout/Header";
+import { hmiossBrandRegistry } from "@/config/brand-registry";
 import { siteConfig } from "@/config/site";
 import { localeDisplayLabels } from "@/config/i18n";
 import { buildLocalizedPath, getAlternateLocalePath } from "@/lib/locale";
@@ -24,6 +26,21 @@ vi.mock("next/link", () => ({
       {children}
     </a>
   ),
+}));
+
+vi.mock("next/image", () => ({
+  default: ({ alt, src, ...props }: Record<string, unknown>) => {
+    const { priority, ...imageProps } = props;
+    void priority;
+
+    return (
+      <img
+        alt={typeof alt === "string" ? alt : ""}
+        src={typeof src === "string" ? src : ""}
+        {...imageProps}
+      />
+    );
+  },
 }));
 
 vi.mock("next/router", () => ({
@@ -64,6 +81,26 @@ describe("Header", () => {
         setItem: setItemMock,
       },
     });
+  });
+
+  it("renders one localized home link with the approved wordmark and keeps the menu trigger separate", () => {
+    render(<Header />);
+
+    const homeLink = screen.getByRole("link", { name: "HMIOSS home" });
+    const logo = within(homeLink).getByRole("img", {
+      name: hmiossBrandRegistry.assets.wordmark.light.alt,
+    });
+    const menuTrigger = screen.getByRole("button", { name: "Open navigation menu" });
+
+    expect(homeLink).toHaveAttribute("href", buildLocalizedPath("en", "/"));
+    expect(homeLink).toHaveClass("focus-visible:ring-2");
+    expect(logo).toHaveAttribute("src", hmiossBrandRegistry.assets.wordmark.light.normalized);
+    expect(menuTrigger).toHaveAttribute("aria-controls", "mobile-navigation");
+    expect(menuTrigger).toHaveClass("focus-visible:ring-2");
+
+    fireEvent.click(menuTrigger);
+
+    expect(screen.getAllByRole("link", { name: "HMIOSS home" })).toHaveLength(1);
   });
 
   it("reveals the mobile navigation links when the menu toggle is activated", () => {

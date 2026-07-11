@@ -1,4 +1,5 @@
 import type { Locale } from "@/config/i18n";
+import { hmiossBrandRegistry } from "@/config/brand-registry";
 import { siteConfig } from "@/config/site";
 
 export function getAbsoluteUrl(path: string) {
@@ -40,9 +41,19 @@ export function getPageSeo({
       title,
       description,
       url: canonical,
-      siteName: siteConfig.shortName,
+      siteName: hmiossBrandRegistry.assets.metadata.shortName,
       locale,
       type: "website" as const,
+      images: hmiossBrandRegistry.assets.social.image
+        ? [
+            {
+              url: getAbsoluteUrl(hmiossBrandRegistry.assets.social.image.normalized),
+              width: hmiossBrandRegistry.assets.social.image.width,
+              height: hmiossBrandRegistry.assets.social.image.height,
+              alt: hmiossBrandRegistry.assets.social.image.alt,
+            },
+          ]
+        : undefined,
     },
     additionalLinkTags: Object.entries(getAlternateLanguageUrls(path)).map(
       ([hrefLang, href]) => ({

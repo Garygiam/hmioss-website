@@ -1,0 +1,152 @@
+{
+  "wordmarks": {
+    "light": {
+      "extraction": {
+        "width": 821,
+        "height": 153,
+        "trimOffsetLeft": -72,
+        "trimOffsetTop": -381
+      },
+      "output": {
+        "dimensions": "821x153",
+        "bytes": 10472,
+        "transparency": "Transparent alpha",
+        "bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 820,
+          "bottom": 152,
+          "width": 821,
+          "height": 153
+        }
+      }
+    },
+    "dark": {
+      "extraction": {
+        "width": 821,
+        "height": 153,
+        "trimOffsetLeft": -72,
+        "trimOffsetTop": -381
+      },
+      "output": {
+        "dimensions": "821x153",
+        "bytes": 10982,
+        "transparency": "Transparent alpha",
+        "bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 820,
+          "bottom": 152,
+          "width": 821,
+          "height": 153
+        }
+      }
+    }
+  },
+  "icons": {
+    "favicon16": {
+      "dimensions": "16x16",
+      "bytes": 669,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 15,
+        "bottom": 15,
+        "width": 16,
+        "height": 16
+      }
+    },
+    "favicon32": {
+      "dimensions": "32x32",
+      "bytes": 1447,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 31,
+        "bottom": 31,
+        "width": 32,
+        "height": 32
+      }
+    },
+    "favicon48": {
+      "dimensions": "48x48",
+      "bytes": 2357,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 47,
+        "bottom": 47,
+        "width": 48,
+        "height": 48
+      }
+    },
+    "appleTouch": {
+      "dimensions": "180x180",
+      "bytes": 10159,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 179,
+        "bottom": 179,
+        "width": 180,
+        "height": 180
+      }
+    },
+    "android192": {
+      "dimensions": "192x192",
+      "bytes": 10796,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 191,
+        "bottom": 191,
+        "width": 192,
+        "height": 192
+      }
+    },
+    "android512": {
+      "dimensions": "512x512",
+      "bytes": 40480,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 511,
+        "bottom": 511,
+        "width": 512,
+        "height": 512
+      }
+    },
+    "goldBounds": {
+      "left": 30,
+      "top": 30,
+      "right": 149,
+      "bottom": 149,
+      "width": 120,
+      "height": 120
+    },
+    "applePreview": {
+      "safeInset": 18,
+      "iconOffset": 30,
+      "iconSize": 180
+    },
+    "contactSheet": {
+      "dimensions": "1840x1480",
+      "bytes": 313530,
+      "transparency": "Transparent alpha",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1839,
+        "bottom": 1479,
+        "width": 1840,
+        "height": 1480
+      }
+    }
+  }
+}
