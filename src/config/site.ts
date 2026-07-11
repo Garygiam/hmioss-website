@@ -31,14 +31,13 @@ export const siteConfig = {
   navItems: [
     { key: "home", href: "/" },
     { key: "about", href: "/about" },
-    { key: "missionVision", href: "/mission-vision" },
     { key: "leadership", href: "/leadership" },
     { key: "programmes", href: "/programmes" },
     { key: "partners", href: "/partners" },
-    { key: "impact", href: "/impact" },
-    { key: "institutionalHistory", href: "/institutional-history" },
     { key: "news", href: "/news" },
-    { key: "join", href: "/join" },
+    { key: "impact", href: "/impact" },
+    { key: "recognition", href: "/recognition" },
+    { key: "institutionalHistory", href: "/institutional-history" },
     { key: "contact", href: "/contact" },
   ] as const,
 } as const;

@@ -119,6 +119,37 @@ describe("Header", () => {
     }
   });
 
+  it("renders the approved public navigation order including Recognition", () => {
+    render(<Header />);
+
+    const desktopNavigation = screen.getAllByRole("navigation")[0];
+    const navigationLabels = within(desktopNavigation)
+      .getAllByRole("link")
+      .map((link) => link.textContent?.trim());
+
+    expect(navigationLabels).toEqual([
+      "Home",
+      "About",
+      "Board",
+      "Programmes",
+      "Partners",
+      "News",
+      "Impact",
+      "Recognition",
+      "Institutional History",
+      "Contact",
+    ]);
+  });
+
+  it("marks the current desktop navigation item with an active state", () => {
+    render(<Header />);
+
+    const activeLink = screen.getByRole("link", { name: "About" });
+
+    expect(activeLink).toHaveAttribute("aria-current", "page");
+    expect(activeLink.className).toContain("text-[#C41E3A]");
+  });
+
   it("keeps the language switcher usable in the mobile navigation", () => {
     render(<Header />);
 

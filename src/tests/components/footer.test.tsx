@@ -6,6 +6,7 @@ import enCommon from "../../../public/locales/en/common.json";
 
 import { Footer } from "@/components/layout/Footer";
 import { hmiossBrandRegistry } from "@/config/brand-registry";
+import { siteConfig } from "@/config/site";
 import { buildLocalizedPath } from "@/lib/locale";
 
 vi.mock("next/image", () => ({
@@ -76,5 +77,21 @@ describe("Footer", () => {
 
     expect(screen.getByText("hello@hmioss.org", { exact: false })).toBeInTheDocument();
     expect(screen.getByText("+603-5878 6029", { exact: false })).toBeInTheDocument();
+  });
+
+  it("keeps footer quick links aligned with the approved public navigation", () => {
+    render(<Footer />);
+
+    const quickLinksHeading = screen.getByText(enCommon.footer.quickLinks);
+    const quickLinksSection = quickLinksHeading.parentElement as HTMLElement;
+    const quickLinkLabels = within(quickLinksSection)
+      .getAllByRole("link")
+      .map((link) => link.textContent?.trim());
+
+    expect(quickLinkLabels).toEqual(siteConfig.navItems.map((item) => enCommon.nav[item.key]));
+    expect(within(quickLinksSection).getByRole("link", { name: "Recognition" })).toHaveAttribute(
+      "href",
+      buildLocalizedPath("en", "/recognition"),
+    );
   });
 });

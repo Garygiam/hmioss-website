@@ -12,6 +12,14 @@ import type { Locale } from "@/config/i18n";
 import { siteConfig } from "@/config/site";
 import { buildLocalizedPath } from "@/lib/locale";
 
+function normalizePath(path: string) {
+  if (!path || path === "/") {
+    return "/";
+  }
+
+  return path.endsWith("/") ? path.slice(0, -1) : path;
+}
+
 export function Header() {
   const { t } = useTranslation("common");
   const router = useRouter();
@@ -23,6 +31,7 @@ export function Header() {
       ? (localeParam as Locale)
       : "en";
   const headerWordmark = hmiossBrandRegistry.assets.wordmark.light;
+  const currentPath = normalizePath(router.asPath.split("?")[0] || "/");
 
   return (
     <header className="sticky top-0 z-40 border-b border-[#E0E0E0] bg-white/90 backdrop-blur-sm">
@@ -41,13 +50,23 @@ export function Header() {
 
         <nav className="hidden items-center gap-7 text-sm font-semibold text-[#1A2A3A] lg:flex">
           {siteConfig.navItems.map((item) => (
-            <Link
-              key={item.key}
-              className="transition-colors hover:text-[#C41E3A]"
-              href={buildLocalizedPath(locale, item.href)}
-            >
-              {t(`nav.${item.key}`)}
-            </Link>
+            (() => {
+              const localizedHref = buildLocalizedPath(locale, item.href);
+              const isCurrentPage = normalizePath(localizedHref.split("?")[0] || "/") === currentPath;
+
+              return (
+                <Link
+                  key={item.key}
+                  aria-current={isCurrentPage ? "page" : undefined}
+                  className={`transition-colors hover:text-[#C41E3A] ${
+                    isCurrentPage ? "text-[#C41E3A]" : ""
+                  }`}
+                  href={localizedHref}
+                >
+                  {t(`nav.${item.key}`)}
+                </Link>
+              );
+            })()
           ))}
         </nav>
 
@@ -78,14 +97,24 @@ export function Header() {
               id="mobile-navigation"
             >
               {siteConfig.navItems.map((item) => (
-                <Link
-                  key={item.key}
-                  className="transition-colors hover:text-[#C41E3A]"
-                  href={buildLocalizedPath(locale, item.href)}
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  {t(`nav.${item.key}`)}
-                </Link>
+                (() => {
+                  const localizedHref = buildLocalizedPath(locale, item.href);
+                  const isCurrentPage = normalizePath(localizedHref.split("?")[0] || "/") === currentPath;
+
+                  return (
+                    <Link
+                      key={item.key}
+                      aria-current={isCurrentPage ? "page" : undefined}
+                      className={`transition-colors hover:text-[#C41E3A] ${
+                        isCurrentPage ? "text-[#C41E3A]" : ""
+                      }`}
+                      href={localizedHref}
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      {t(`nav.${item.key}`)}
+                    </Link>
+                  );
+                })()
               ))}
             </nav>
             <LanguageSwitcher />
