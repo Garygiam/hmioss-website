@@ -44,6 +44,22 @@ describe("recognition public asset policy", () => {
     expect(publicKeys.some((key) => key.toLowerCase().includes("whatsapp"))).toBe(false);
   });
 
+  it("uses the approved country metadata for every public congratulatory letter", () => {
+    const publicLetterCountries = Object.fromEntries(
+      publicInstitutionalCredentialGroups
+        .flatMap((group) => group.items)
+        .map((item) => [item.key, item.countryTerritory]),
+    );
+
+    expect(publicLetterCountries).toMatchObject({
+      "chinese-youth-entrepreneurs-association": "Taiwan",
+      "holland-china-business-culture-education-association": "Netherlands",
+      "zhi-gong-arts-institute": "Netherlands",
+      "china-macau-zhi-gong-association": "Macau SAR, China",
+      "thayninga-institute-for-strategic-studies": "Myanmar",
+    });
+  });
+
   it("ships a public runtime file for every approved public letter", () => {
     const approvedDocumentSources = publicInstitutionalCredentialGroups.flatMap((group) =>
       group.items.map((item) => item.documentSrc).filter((value): value is string => Boolean(value)),
