@@ -70,4 +70,11 @@ describe("Footer", () => {
     expect(homeLink).toHaveClass("focus-visible:ring-2");
     expect(logo).toHaveAttribute("src", hmiossBrandRegistry.assets.wordmark.light.normalized);
   });
+
+  it("renders the approved public contact information", () => {
+    render(<Footer />);
+
+    expect(screen.getByText("hello@hmioss.org", { exact: false })).toBeInTheDocument();
+    expect(screen.getByText("+603-5878 6029", { exact: false })).toBeInTheDocument();
+  });
 });

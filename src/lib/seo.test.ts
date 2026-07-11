@@ -14,6 +14,8 @@ describe("getPageSeo", () => {
 
     expect(seo.openGraph.siteName).toBe(hmiossBrandRegistry.assets.metadata.shortName);
     expect(seo.openGraph.images).toBeUndefined();
+    expect(seo.canonical).toBe("https://www.hmioss.org/en");
+    expect(seo.openGraph.url).toBe("https://www.hmioss.org/en");
     expect(seo.additionalLinkTags).toHaveLength(4);
   });
 });

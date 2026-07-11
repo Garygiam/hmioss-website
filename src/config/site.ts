@@ -12,14 +12,14 @@ export const siteConfig = {
   tagline: "Legacy of Honor. Future of Strategy.",
   description:
     "A strategic studies institute empowering communities through education, research, and national service.",
-  url: "https://hmioss.org",
+  url: "https://www.hmioss.org",
   defaultLocale,
   locales: supportedLocales,
   localeLabels,
   localeDisplayLabels,
   address: "F01, First Floor, The Heritage, Jalan Dagang SB, 43300 Seri Kembangan, Selangor",
-  phone: "+603-87339334",
-  email: "secretariat@hmioss.org",
+  phone: "+603-5878 6029",
+  email: "hello@hmioss.org",
   stats: [
     { value: "Strategic", labelKey: "stats.partnerships" },
     { value: "Leadership", labelKey: "stats.programmes" },
@@ -27,12 +27,7 @@ export const siteConfig = {
     { value: "Community", labelKey: "stats.community" },
     { value: "Institutional", labelKey: "stats.network" },
   ],
-  socialLinks: [
-    { label: "WeChat", href: "https://wechat.com" },
-    { label: "WhatsApp", href: "https://wa.me/60387339334" },
-    { label: "Facebook", href: "https://facebook.com" },
-    { label: "LinkedIn", href: "https://linkedin.com" },
-  ],
+  socialLinks: [],
   navItems: [
     { key: "home", href: "/" },
     { key: "about", href: "/about" },
